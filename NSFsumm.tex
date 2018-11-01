@@ -1,0 +1,200 @@
+\required{Project Summary}
+
+\newpage
+
+\section{Introduction}
+% start page 1
+% Galaxy Surveys are great
+Spectroscopic galaxy surveys play an indispensable role in precision cosmology. 
+The measurements of the Baryon Acoustic Oscillation (BAO) peak position at various redshifts put tight constraints
+on the expansion rate and geometry of the Universe.
+The Redshift-Space Distortion (RSD) signal, which has its origins in the growth of structure over cosmic time,
+can constraints the growth rate as well as expansion rate as a function of redshift.
+These measurements have been pushed to a very high precision. BAO are now measured at a one per cent precision, 
+while the best RSD measurements stand at about a five per cent precision.
+The next generation of galaxy surveys, such as Dark Energy Spectroscopic Instrument (DESI), Euclid satellite mission,
+and the Wide Field Infrared Survey Telescope (WFIRST), will extend these measurements to higher redshifts and even better precision.
+
+% Dark Energy gravity still unclear close to LCDM and GR
+When these measurements are combined with a Cosmic Microwave Background (CMB) data the resulting constraints
+on Dark Energy (DE) and theories of gravity (TG), they are overall consistent with the standard cosmological 
+$\Lambda$CDM model. The constraints however at this point are not tight enough to conclusively rule out alternative
+models of DE and TG that are arguably better motivated from a fundamental physics point of view than the standard cosmological model.
+In addition, there are a number of 2 to 3 $\sigma$ discrepancies (such as e.g. the discrepancy with the local Hubble
+constant measurements, or the tension with the clustering amplitude measured by weak lensing surveys), but they are
+not statistically significant enough to make a conclusive case in favour of non-standard models.
+ 
+% There will be a cosmic variance limit for standard analysis
+Since we have only one vintage point for observing the Universe the amount of information that is 
+available to us is fundamentally limited. Both BAO and RSD tests, as currently implemented, rely on
+two-point statistics measurements of the galaxy field the precision of which is limited by the total 
+observable volume. Expected DESI data will almost saturate this ``cosmic variance'' limit at lower redshifts
+where DE dominates the evolution. Hopefully, we will be able to either strongly rule out alternative scenarios or
+find a convincing non-$\Lambda$CDM signal. If we, however, end up with a number of nagging discrepancies that are
+suggestive but not statistically significant, the only way to resolve the issue will be to find an alternative source
+of robust and precise cosmological constraints in the same data.
+
+% We need to squize out more informaiton
+There are a number of ways to extract more information from spectroscopic galaxy data. We can try to enhance the standard
+BAO analysis by (by now standard) method of reconstructing the linear field or trying to come up with more optimal weighting
+schemes. Other approaches include looking at stacked voids, joint multi-tracer analysis, and going to smaller scales by means
+of simulation assisted modeling. All these approaches have their advantages and disadvantages and all of them must be tried out
+on real data. In this proposal we would like to pursue the same goal by going to the third-order statistics of galaxy fields.
+
+% what we propose, what we ask for
+The main objective of this proposal is to develop methods for \textbf{extracting robust BAO and RSD measurements from the 
+bispectrum of galaxies on linear and semi-linear scales}. We argue that, even though this is a difficult 
+endeavour that has a number of inherent risks, it also has a number of potential advantages over alternatives (e.g.
+using a two-point statistics of reconstructed fields, or extracting RSD signal from stacked objects such as stacked voids),
+and is worth pursuing. The main appeal of bispectrum is that, at least for some future surveys, it has a potential
+to significantly enhance the standard BAO and RSD analysis and will have more information than the reconstructed galaxy field.
+The main risk is that the theoretical modeling of bispectrum may turn out to be to complicated and the results may be limited
+by our inability to properly model non-linear effects in the bispectrum. We hope to convince our colleagues that the benefits 
+outweight the risks and this line of research merits a modest investment of resources (partial summer support for a PI and Co-PI,
+PhD student and a Postdoc), and that some of the pre-existing work that we performed in this direction places us in a good position 
+to perform this research.
+% end page 1
+
+\section{Bispectrum overview}
+
+% 2pt and 3pt
+Spectroscopic galaxy surveys provide us with highly accurate measurements of 3D positions of millions of galaxies in large cosmic volumes.
+The specific distribution of galaxies that we observe is just one out of a large number of possible distribution that could have been
+observed in the same cosmological model if the stochastic initial conditions were slightly different. The most popular way of describing
+this stochasticity in the large-scale structure community has been to use the n-point correlation functions. The two-point correlation function
+$\xi(\vec{r})$ is a function of a separation vector $\vec{r}$ and describes a ``clustering strength'' at a certain scale (average number of neighbours at distance
+$\vec{r}$ from a randomly selected galaxy). Three-point function $\eta(\vec{r}_1, \vec{r}_2)$, similarly, is a describes a probability of finding three galaxies 
+in a specific triangular configuration. This information is sometimes expressed in terms of Fourier transforms of these two functions 
+(power-spectrum $P(\vec{k})$ and bispectrum $B(\vec{k}_1, \vec{k}_2)$ respectively). From now on we will use the term ``bispectrum'' to generically refer to the
+three-point function both in Fourier and configuration spaces. In principle, the hierarchy of all infinite n-point functions contains all of the statistical
+information encoded in the stochastic field. In practice, measuring and analyzing higher order statistics gets increasingly difficult and at least for the current
+state of knowledge and technological capabilities is probably confined to the second and third orders.
+
+% How is 3pt generated
+For purely Gaussian fields the two-point statistics contains all of the information and the expectation value of bispectrum is zero. 
+The seed cosmological fluctuations are believed to be very close to Gaussian. There are two main mechanisms for generating non-zero
+bispectrum even from perfectly Gaussian initial conditions. The main mechanism is gravitational instability, which is non-linear. 
+Non-linear terms in the Euler equation will inevitably couple initially independent Fourier modes and will therefore generate bispectrum.
+The second mechanism is non-linear biasing between Dark Matter (DM) and galaxies. The relationship between DM and galaxy overdensities 
+is linear on very large scales but non-linear and non-local effects become more important on smaller scales. Because of this non-linear mapping
+the galaxy distribution would have a non-zero bispectrum even if it was generated form a purely Gaussian DM field. This immediately suggests that
+bispectrum should be sensitive to the exact nature of TG and higher order bias parameters. We will later argue that the sensitivity to DE 
+through projection effects is even stronger.
+
+Inflationary theories predict that initial fluctuations have some level of primordial non-Gaussianity imprented in them.
+Planck data put very tight upper limit on local primordial non-Gaussianity parameter -- $f_\mathrm{nl}$ -- at least for some triangular configurations.
+This is not a problem for our research program since we do not intend to use bispectrum as means to measure $f_\mathrm{nl}$, in fact the small value
+of $f_\mathrm{nl}$ makes the modeling part significantly easier. Our goal is to measure BAO/RSD from the distortions of the bispectrum shape
+and as we will later show for this goal the bispectrum generated by gravitational instability and higher order bias is sufficient.
+
+% What does 3pt look like
+Formally, the measured bispectrum is a function of two wavevectors, but azimuthal symmetry with respect to the line of sights makes it into a function
+of five variables: three variables describing the size of the triangle (e.g. wavelengths $k_1, k_2, k_3$ corresponding to three sides) and two variables
+describing its orientation with respect to the line of sight (e.g. angle that one of the sides makes with respect to the line of sight, and
+the internal rotational angle of the triangle). The potential to constrain cosmological parameters comes from the fact that the exact shape of this 
+five dimensional function depends on initial conditions, the nature of gravity that generated it, and the higher order bias.
+
+% 3pt signal
+The accuracy of bispectrum measurements is related to the number of independent galaxy triangles in the survey.
+The dominant contributions to the uncertainty in measured bispectrum come from ``cosmic variance'' and ``shot-noise''. Instrumental effects and
+sub-optimal choices in estimator implementations are usually sub-dominant when it comes to measurement variance. Shot-noise stems from the fact
+that sparsely sampled galaxy populations have smaller number of triangles and for the bispectrum (assuming Poisson distribution) scales as 
+$1/n^2$, where $n$ is the number density of galaxies. The cosmic variance scales as $1/V$ with the survey volume and reflects the fact that
+larger volumes have more independent triangular configurations. Large scale measurements are limited by the cosmic variance and small scale measurements
+by the shot-noise. The overall variance of the bispectrum measured in wavevector bins scales as (up to a normalization factor, and under a number of
+simplifying assumptions)
+\begin{equation}
+    \mathrm{Variance}\left[B(\vec{k}_1,\vec{k}_2,\vec{k}_3)\right] \propto \frac{k_1k_2k_3\Delta k_1\Delta k_2\Delta k_3}{V}\left[\frac{P(\vec{k}_1)P(\vec{k}_2) + P(\vec{k}_2)P(\vec{k}_3) + P(\vec{k}_3)P(\vec{k}_1)}{n} + \frac{1}{n^2}\right],
+\end{equation}
+where $\Delta k$s are the widths of wavevector bins. For comparison the power spectrum variance scales as
+\begin{equation}
+    \mathrm{Variance}\left[P(\vec{k})\right] \propto \frac{k^2\Delta k}{V}\left[P(\vec{k}) + \frac{1}{n}\right].
+\end{equation}
+This rough comparison demonstrates that the signal to noise of measured bispectrum benefits much more from increasing sampling density 
+compared to the power spectrum ($n^{-2}$ vs $n^{-1}$. It also benefits much more by extending the analysis to smaller scales (higher wavenumbers)
+($k^6$ vs $k^3$). So, the higher the number density is and the smaller the non-linear effects are more competitive the bispectrum constraints become.
+Our forecasts (presented in subsequent sections) suggest that, if we manage to control systematic effects, bispectrum is capable of delivering impressively
+competitive constraints for DESI Bright Galaxy Survey (BGS) and the lower redshift range of WFIRST. Both of these samples have a high number density
+and WFIRST is additionally at a high redshift (hopefully allowing to push the analysis to higher values of $k_\mathrm{max}$.
+Although not as impressive, the projected bispectrum constraints from DESI main samples and Euclid are also very interesting. 
+
+\section{BAO/RSD analysis}
+
+The primordial shape is imprinted very cleanly in the initial distribution. Later gravitational evolution mixes the modes and moves some of the shape information
+from power spectrum to bispectrum. If cosmological constraints were coming only from the shape of the power spectrum and bispectrum the contribution of bispectrum 
+would be modest. Reconstruction of the initial linear field would then move all of this higher order information back to the power spectrum.
+Fortunately, we have other effects in the observed clustering that are far more sensitive to DE and TG then the initial shape. Most of the BAO constraints
+on DE actually come from so called Alcock-Patczynski (AP) distortions of the feature rather than actual determination of its position. Similarly, most
+of TG constraints come from radial RSD signal.
+
+% BAO/RSD in general
+BAO is a preferred scale set by processes in yearly Universe. It manifests itself as a peak in the correlation function and an oscillatory pattern
+in the power spectrum. The BAO scale has been measured with an exquisite precision by CMB experiments and convincingly detected in low redshift galaxy samples.
+Since baryonic matter only comprises a small fraction of non-relativistic matter, the BAO feature is not as strong in galaxy distribution as it is in CMB.
+The constraining power of the BAO in galaxy distribution is strongly enhanced by the AP effect.
+
+The AP effect results from the fact that we observe galaxies in the space of angular coordinates and redshifts. To link these to theoretical 
+predictions we need to translate them into physical distances. To do this we need to know the angular diameter distance $D_A$ (for angular distances) 
+and the Hubble parameter $H$ (for radial distances) at the redshift of our galaxy sample. If we pick wrong $D_A$ and $H$ our scaling will be off.
+Since we know the position of the BAO peak at a very high precision from CMB data, we can use AP distortions to find a correct value of $D_A$ that aligns
+BAO in galaxy distribution with the correct physical scale. Performing this alignment in the radial direction similarly constraints $H$. These $D_A$ and
+$H$ measurements can then be translated into strong and robust DE constraints. In principle, AP effect would work even without the BAO feature, but the
+presence of a well calibrated peak (or for the power spectrum oscillatory pattern with known frequency) makes it easier to detect small shifts.
+
+RSD is an anisotropic signal in the galaxy distribution that results from the fact that galaxies on average tend to fall into each other and because of this
+coherent extra Doppler shift their radial distances seem on average to be smaller than they really are. Since we belie that their is no fundamental reason for
+galaxy distributions to have a different statistical pattern in radial and angular directions, we can use measured RSD to constrain infall velocities of galaxies.
+And since gravitational interactions source the infall velocities this information can then be translated into strong constraints on TG.
+
+BAO are considered to be very robust and virtually systematics free measurements. They are very large scale features that are not sensitive to the effects of
+nonlinear growth and bias. RSD modeling is more involved and significant systematic effects can be present already on semi-linear scales. 
+There is no straightforward way of isolating the RSD feature in the analysis, so the RSD measurements must always incorporate AP measurements on the full 
+power spectrum shape. However, if the systematics can be brought under control RSD enhance the constraining power of galaxy surveys by an order of magnitude,
+and make it possible to constrain TG in addition to DE.
+
+% BAO/RSD in 2pt
+Our flagship BAO/RSD measurements have so far come from two point statistics. Most recently BAO has been measured in 6dF, CMASS, BOSS, WiggleZ, and Vipers surveys.
+The BOSS measurement is so far the most accurate at 1\% at $z\sim0.57$. RSD has been measured in CMASS, BOSS, WiggleZ, and Vipers surveys. Large-scale BOSS
+measurements stand at 5\%. DESI, Euclid, and WFIRST are projected to make multiple similar sub-percent level measurements up to a redshift of $z\sim 2$.
+
+% BAO/RSD in 3pt
+The full fledged equivalent BAO/RSD bispectrum measurements on linear and semi-linear scales have not so far been performed mainly due to technical difficulties
+with measurements, theoretical modeling, and difficulties in estimating covariance matrices. Many early papers have looked at the small scale three-point function
+to constrain second order bias []. The large scale BOSS bispectrum monopole has been used in conjunction with the power spectrum to enhance RSD measurements.
+BAO has been detected in the BOSS large scale three-point function [] and the bispectrum []. The analysis of large scale quadrupole of the bispectrum has not
+been performed so far to the best of our knowledge.
+
+\section{Bispectrum advantages}
+
+% Bispectrum over reconstruction
+
+% Bispectrum over voids
+
+% Bispectrum over small scale
+
+% All must be tried
+
+\section{Bispectrum -- Status Quo}
+
+\section{Research Plan}
+
+\section{Outreach Plan}
+
+\section{Relevant Prior Research}
+
+\section{Known Risk Factors}
+
+\required{Previous NSF Support}
+
+\required{Intellectual Merit}
+% This is why your project is interesting and will help further
+% knowledge in the field of mathematics. 
+
+\required{Broader Impacts}
+% There are 4 kinds of broader impacts.
+% 1. advance discovery and understanding while promoting teaching,
+% training and learning
+% 2. broaden the participation of underrepresented groups
+% 3. disseminated broadly to enhance scientific and technological
+% understanding
+% 4. benefits of the proposed activity to society
