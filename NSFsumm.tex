@@ -315,8 +315,44 @@ described below.
 
 \subsection*{measurements}
 
+The bispectrum measurements are generally more difficult and computationally
+demanding than the power spectrum measurements. Fortunately, recent
+developments have made this task significantly easier. Recent works have
+demonstrated that even wide-angle bispectrum measurements can be reduced to a
+series of Fast Fourier Transforms (FFT), and that the triangle counting can
+also be reduced  to a combination of FFTs and convolutions. Our group has
+developed a fast GPU implementation of bispectrum multipole algorithm that has
+been validated on controlled mocks and can process order of few thousand mocks
+(of the size of BOSS CMASS sample) in order of few hours.
+
+This part of the work will be concerned with further high precision testing of
+our pipeline. We will produce particle distributions with known input power
+spectrum and bispectrum following e.g. Ref~[]. We will then check that our
+pipeline accurately reproduces the input. To accomplish this task we will not
+need to evolve the initial conditions under gravity, which will make the task
+computationally inexpensive. 
+
+In addition, we will test methods of modeling the shot-noise and window effects
+on the measurements. We expect the simple Poisson shot-noise model to work
+sufficiently well on large scales but this expectation will be tested on
+controlled simulations. The window-effects are 
+
+Another topic that we will look into is related to the optimal reduction of
+bispectrum data. Measuring bispectrum monopole and quadrupole in fine
+wavelength bins will result in a very big data vector. This may prove
+problematic at a later stage for estimating covariance matrices. There are
+multiple possible ways of reducing the data vector size. One possibility is to
+identify the triangular shapes that carry the most information on BAO/RSD and
+remove the others. A more elaborate method along these lines would consist of
+identifying the most informative linear combinations of bispectra bins. We will
+explore all these options and will check how well they perform.
 
 \subsection*{covariances}
+
+The covariance matrices of measured bispectra provide another challenge. The
+standard method of estimating covariance matrices from a sample variance of a
+large number of mocks is complicated by the fact that there are a very large
+number of bins.
 
 \subsection*{observational systematics}
 
@@ -397,6 +433,8 @@ and a Postdoc, and involvement in software pipeline development for the
 project.
 
 % Bharat's staff
+PI Ratra is a world renown expert on DE modeling. His most recent works include
+analysis of \ldots
 
 \required{Intellectual Merit}
 % This is why your project is interesting and will help further
