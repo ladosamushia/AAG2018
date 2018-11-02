@@ -42,7 +42,7 @@ discrepancies that are suggestive but not statistically significant, the only
 way to resolve the issue will be to find an alternative source of robust and
 precise cosmological constraints in the same data.
 
-% We need to squize out more informaiton There are a number of ways to extract
+% We need to squeeze out more information There are a number of ways to extract
 more information from spectroscopic galaxy data. We can try to enhance the
 standard BAO analysis by (by now standard) method of reconstructing the linear
 field or trying to come up with more optimal weighting schemes. Other
@@ -65,7 +65,7 @@ have more information than the reconstructed galaxy field. The main risk is
 that the theoretical modeling of bispectrum may turn out to be to complicated
 and the results may be limited by our inability to properly model non-linear
 effects in the bispectrum. We hope to convince our colleagues that the
-benefits  outweight the risks and this line of research merits a modest
+benefits  outweighs the risks and this line of research merits a modest
 investment of resources (partial summer support for a PI and Co-PI, PhD
 student and a Postdoc), and that some of the pre-existing work that we
 performed in this direction places us in a good position  to perform this
@@ -114,7 +114,7 @@ parameters. We will later argue that the sensitivity to DE  through projection
 effects is even stronger.
 
 Inflationary theories predict that initial fluctuations have some level of
-primordial non-Gaussianity imprented in them. Planck data put very tight upper
+primordial non-Gaussianity imprinted in them. Planck data put very tight upper
 limit on local primordial non-Gaussianity parameter -- $f_\mathrm{nl}$ -- at
 least for some triangular configurations. This is not a problem for our
 research program since we do not intend to use bispectrum as means to measure
@@ -160,8 +160,8 @@ k}{V}\left[P(\vec{k}) + \frac{1}{n}\right].
 
 This rough comparison demonstrates that the signal to noise of measured
 bispectrum benefits much more from increasing sampling density  compared to
-the power spectrum ($n^{-2}$ vs $n^{-1}$. It al so benefits much more by
-extending the analysis to smaller scales (higher wavenumbers) ($k^6$ vs
+the power spectrum ($n^{-2}$ vs $n^{-1}$). It also benefits much more by
+extending the analysis to smaller scales (higher wavenumbers, $k^6$ vs
 $k^3$). So, the higher the number density is and the smaller the non-linear
 effects are more competitive the bispectrum constraints become. Our forecasts
 (presented in subsequent sections) suggest that, if we manage to control
@@ -292,9 +292,19 @@ superior but rather to argue that despite its intrinsic difficulties it has
 some interesting advantages and merits further development and research.
 
 % Bispectrum over improvements
+A safe option (one that is not prone to introducing additional systematics) for
+improving BAO/RSD measurements from the power spectrum is to weighting schemes
+that are in some ways more optimal than the standard Feldman-Kaiser-Peacock
+prescription. Weighting schemes based on relative bias of galaxy sub-samples and
+redshift evolution have recently been studied in literature. Even though these
+weighting schemes have a potential to somewhat improve the measurements they
+could never achieve a factor of three improvement that is potentially in the
+bispectrum.
 
 % Bispectrum over reconstruction
-
+A very popular methods, that has by now become standard, is to undo some of the
+effects of non-linear evolution on large scales by reconstructing the initial
+field. 
 % Bispectrum over voids
 
 % Bispectrum over small scale
@@ -335,7 +345,13 @@ computationally inexpensive.
 In addition, we will test methods of modeling the shot-noise and window effects
 on the measurements. We expect the simple Poisson shot-noise model to work
 sufficiently well on large scales but this expectation will be tested on
-controlled simulations. The window-effects are 
+controlled simulations. In previous works the window effects have either been
+ignored or modeled in an ad-hoc way. Exact window convolution for bispectrum
+requires computing a six-dimensional double convolution integrals which is
+computationally challenging, especially considering the fact that the
+convolution will have to be performed for every model in Monte Carlo Markov
+Chains. We will investigate approximate methods that are accurate enough for our
+purposes and fast enough to be implement in the likelihood pipeline. 
 
 Another topic that we will look into is related to the optimal reduction of
 bispectrum data. Measuring bispectrum monopole and quadrupole in fine
@@ -352,7 +368,12 @@ explore all these options and will check how well they perform.
 The covariance matrices of measured bispectra provide another challenge. The
 standard method of estimating covariance matrices from a sample variance of a
 large number of mocks is complicated by the fact that there are a very large
-number of bins.
+number of bins and an accurate estimation of covariance and precision matrices
+will require a large number of mocks.
+
+We may still be able to get away with computing sample covariance if we are able
+to find a suitable data reduction scheme that reduces the size of our data
+vector without significantly sacrificing the information content. 
 
 \subsection*{observational systematics}
 
