@@ -387,6 +387,32 @@ enhancements.
 
 \section{Bispectrum -- Status Quo}
 
+% previous works
+Early bispectrum measurements in galaxy distribution have been made in
+(exhaustive list of early works here with short description).
+
+% BOSS and WiggleZ work
+More recent bispectrum measurements have been performed in WiggleZ and BOSS
+galaxy samples. (exhaustive list of more recent works here with short
+description).
+
+% our work
+Our group has published a number of recent papers related to galaxy bispectrum
+analysis. In Ref.~[] we studied the ways of reducing bispectrum information
+without sacrificing information content and identified three harmonic angular
+modes that contain most relevant information. In Ref.~[] we detected a BAO
+signature in BOSS CMASS bispectrum monopole. Our measurement was systematics
+limited but still allowed us to convert the measurements to a 2 per cent
+distance measure. We showed on the mocks that a systematics free measurement
+would be slightly tighter compared to the one obtainable from the reconstructed
+power spectrum. We are currently working on extending our work to anisotropic
+bispectrum analysis. This will allow us to constrain both angular and radial
+BAO parameters. Preliminary MCMC chains from this measurement are displayed on
+Figure~2. Our proposed work would take over from here and would add RSD to the
+mix. We will also work on a more careful study of possible theoretical and
+observational systematic effects to bring the errorbars down.
+
+
 \section{Research Plan}
 
 % What we will do
@@ -443,22 +469,83 @@ The covariance matrices of measured bispectra provide another challenge. The
 standard method of estimating covariance matrices from a sample variance of a
 large number of mocks is complicated by the fact that there are a very large
 number of bins and an accurate estimation of covariance and precision matrices
-will require a large number of mocks.
+will require a large number of mocks. This problem becomes even more acute for
+a joint power spectrum and bispectrum analysis. The covariance matrices in this
+case are large and clearly non-diagonal.
 
-We may still be able to get away with computing sample covariance if we are able
-to find a suitable data reduction scheme that reduces the size of our data
-vector without significantly sacrificing the information content. 
+We plan to tackle this problem from two complementary directions. One is to
+somehow reduce the size of data vector so that computing covariances from the
+mocks becomes a possibility. Another route is to estimate covariances at least
+partially theoretically and calibrate theoretical estimates with mocks. 
+
+% reducing size
+Ref.~[] showed that it is possible to compress measured bispectrum to a
+significantly smaller vector without loosing too much information. This
+approach is very effective but requires the knowledge of covariance matrix and
+is model dependent. Other approaches include further reduction of bispectrum
+multipoles into e.g. first few multipoles in triangular configuration angle, or
+identifying few principal components and only using them in the analysis. All
+these approaches can be tested in a straightforward manner on mocks.
+
+% theory
+The exact theoretical estimation of bispectrum covariance would require
+computing a six-point function and is probably an unachievable goal. It is
+however likely that, especially at high redshifts, the covariance is dominated
+by the leading order terms which are reasonably easy to compute. The biggest
+effect would than be the effect of the mask on covariance and the coupling
+between shot-noise and mask effects. We will borrow some recent ideas that were
+demonstrated to work for the power spectrum (Refs.~[]) and will generalize them
+for the bispectrum while making additional simplifications (e.g. assuming that
+the bispectrum window function isotropic). Taking into account the fact that
+fractional error in bispectrum in individual bins is lower than for the power
+spectrum and that our requirement on the accuracy of covariance matrix is not
+as stringent as a similar requirement on the model, we will identify
+approximations that are good enough for our purposes and do not bias likelihood
+fitting strongly. We can then use methods such as shrinkage to combine our
+theoretical covariance with the sample variance. For this approach to work we
+do not really need parameter free covariance matrices. Presence of few extra,
+physically motivated, parameters would be acceptable and they would later be
+calibrated on simulations.
 
 \subsection*{observational systematics}
 
 All observational systematics affecting the standard two-point BAO/RSD analysis
-are also likely to affect the bispectrum. It is difficult to imagine
-observational systematics that would be either exclusive to the bispectrum or
-significantly more severe.  
+are also likely to affect the bispectrum. Most observational systematics affect
+one point distribution (e.g. certain areas of sky have a lower efficiency of
+having galaxies detected or the efficiency is a function of emission line
+flux). These systematic inefficiencies are usually expressed either in terms of
+visibility cubes (implemented in practice as random catalogs) or as sets of
+per object weights. The mitigation of observational systematics is a very high
+priority task for DESI/Euclid/WFIRST collaborations. We will closely follow
+this work (PI Samushia is actually involved with some of this work) and will
+implement the known mitigation techniques in our bispectrum analysis. It is
+difficult to imagine observational systematics that would be either exclusive
+to the bispectrum or significantly more severe.
 
 % bitwise weights
+There are some systematics that may not directly translate from the power
+spectrum analysis and may require a separate investigation. These are the
+systematics that affect the configuration space and can not be split into a
+product of one-point weights. A good example of this type of systematics is
+e.g. fiber assignment effects in DESI and slitless-spectroscopy effects in
+Euclid.
+
+Two proposed methods of dealing with fiber assignment effects are to remove the
+most affected modes or to use a pair-wise weighting. Even though the power
+spectrum specific versions of these methods can not be directly applied to
+bispectrum they can be easily generalised. It should be reasonably
+straightforward to identify the most affected bispectrum configurations and to
+exclude them from the analysis. It should also be reasonably straightforward
+to generalise pair-wise weighting schemes to triplet-wise weighting. In fact,
+the bit-wise weights as implemented in Ref.~[] can be very easily translated
+into triplet-wise weights.
+
+In summary, our main concern here is to make sure that we are on top of ongoing
+systematics work and to generalise and validate developed methods for higher
+order statistics.
 
 \subsection*{modeling}
+
 % nonlinear
 
 % bias
