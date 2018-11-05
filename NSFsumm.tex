@@ -304,7 +304,48 @@ bispectrum.
 % Bispectrum over reconstruction
 A very popular methods, that has by now become standard, is to undo some of the
 effects of non-linear evolution on large scales by reconstructing the initial
-field. 
+field. This sharpens the power spectrum shape around BAO and makes it more
+sensitive to the AP test (sensitivity to small distortions scales as
+$\mathrm{d}P/\mathrm{d}k$. The effectiveness of reconstruction is limited by
+two factors. At high redshifts the BAO shape is closer to linear and there is
+not much to gain by making it sharper. Also, it is not completely clear how the
+reconstruction interplays with RSD. Even though it is possible to run a
+reconstruction algorithm without removing RSD signal, some kind of RSD modeling
+will have to be adopted, and it is not entirely clear that this procedure will
+not bias the extracted RSD constraints. Reconstruction is therefore suitable
+for BAO only constraints but does not help with the RSD analysis.
+
+Bispectrum is an independent (although somewhat correlated) measurement that as
+we argued can be used for the AP and RSD measurements. Small distortions in the
+bispectrum shape can be used to constraint $D_A$ and $H$ in a way that is
+identical to the power spectrum (even though the modeling of former can be more
+complicated). While reconstruction linearises BAO peak in power spectrum it
+also reduces the bispectrum amplitude. For the number densities that are
+typical for current surveys (order of $10^{-4}\ \mathrm{Mpc}$/h) the gain in
+the power spectrum sensitivity to AP is approximately equal to the loss in the
+bispectrum sensitivity. For current surveys this implies that the BAO
+constraints form reconstructed power spectrum are roughly equal to the kind of
+constraints that are obtainable from a joint power spectrum and bispectrum
+analysis, and since the former is simper there is no practical need for the
+later. This is not however true at higher densities and higher redshifts where
+the sharpening of power spectrum BAO feature does not gain as much information
+as adding a bispectrum function to the analysis. 
+
+In summary, the information content of reconstructed power spectrum is not
+always equal to the information content of joint power spectrum and bispectrum
+(and all the other higher order correlators) analysis. They would be equal for
+a field in a box, where the shape of the power spectrum of initial nearly
+Gaussian field contains all the information and gravitational evolution only
+serves to couple the phases and dilute this information into higher order
+terms. Our constraints however are coming from AP distortions of observed
+quantities and having an extra distorted function (bispectrum) is in some cases
+more profitable than having a slightly ``sharper'' power spectrum. This is easy
+to see for a hypothetical case of a universe without a BAO feature (perhaps a
+Universe with trace amounts of baryonic matter). In that universe
+reconstruction would not really add anything to the power spectrum, it would
+simply slightly tilt the power law. But having an extra function (bispectrum)
+for the AP analysis would obviously increase the constraining power.
+
 % Bispectrum over voids
 
 % Bispectrum over small scale
