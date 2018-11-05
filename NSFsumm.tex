@@ -546,15 +546,76 @@ order statistics.
 
 \subsection*{modeling}
 
+Accurate modeling of various nonlinear effects that contribute to higher order
+clustering is arguably the most important step towards deriving competitive
+BAO/RSD constraints form real data. The modeling can be schematically divided
+into three semi-independent steps: modeling non-linear gravitational evolution
+of DM, nonlinearities in halo-to-DM and galaxy-to-halo relationship, and
+nonlinearities in redshift-to-real space mapping.
+
 % nonlinear
+Nonlinear evolution of DM field is an extensively studied subject. Pioneering
+works have shown that perturbative approaches work on large scales. The rate of
+convergence of standard perturbation theory (STP) is slow, which prompted a
+development of alternative approaches including Lagrangian perturbation theory,
+closure theory, and various resummation and renormalization schemes.
+Perturbation theory for bispectrum is generally more challenging because of
+numerical issues associated with higher dimensional integrals and even slower
+convergence than for a second order statistics. The nonlinear effects in DM
+growth however are expected to become milder with redshift. For high redshift
+samples form DESI/Euclid/WFIRST the modeling of pure DM nonlinearities will be
+a significantly easier task. We plan to work on a project similar to Ref.~[]
+where the outcomes of various perturbation theory approaches will be tested on
+simulations on the same footing and a careful test of validity will be
+performed and a safe minimal scale will be determined for all models.
 
 % bias
+The modeling of halo and galaxy bias is complicated and does not necessarily
+become easier at higher redshifts. The hope is a few parameter models (e.g.
+linear and second order bias to describe halo biasing supplemented with
+Fingers-of-God dispersion term to describe the interhalo motions of galaxies)
+will be found sufficiently accurate on large scales. We plan to work on a
+project similar to Ref.~[] and test various biasing schemes on simulations.
+Following Ref.~[] we will measure the DM and halo clustering in real space and
+will use them to check how well various biasing schemes work and to what extent
+is inclusion of higher order bias and non-local bias necessary. The main goal
+of our project is to derive unbiased BAO/RSD constraints from linear scales
+which makes our job slightly easier in a sense that bias models that do not
+necessarily accurately describe the physics of halo-DM and galaxy-halo
+interaction may be good enough for us as long as they do not systematically
+bias our BAO and RSD results.
 
 % RSD
+RSD effects do not respond well to perturbative approaches. The Most popular
+methods for modeling them belong to a family of ``streaming'' models that
+describe redshift-to-real space mapping geometrically without relying on
+linearisation. Unfortunately, one has to refer to approximate perturbative
+schemes at some point since the streaming models require knowledge of velocity
+field statistics (e.g. probability distribution of infall velocities). Even so,
+the streaming models have been demonstrated to work much better than plain
+perturbation theory and most recently have been used to model BOSS data. One
+popular model along these lines is the TNS model that has been generalised to
+bispectrum. Ref.~[] showed that the model works well up to scales of
+$k_\mathrm{max} \sim 0.2$ on low resolution simulations. We envision two
+possible projects here. One is to test this Fourier space bispectrum model at
+higher precision level demanded by future surveys and to check whether it works
+for lighter halos that will host most of DESI/Euclid/WFIRST galaxies. The
+second direction is to generalize a real-space work of Ref.~[] to higher
+orders. We will start with the simplest approximation in which the real space
+and redshift space three-point functions are related by a triple infall
+velocity distribution convolution which is multivariate Gaussian. We will be
+able to test how well this approximation works (and on what scales) by directly
+measuring three-point infall velocity distribution in simulations and
+convolving it with a measured three-point function. We will then try
+probability distribution functions of increasing complexity and check if any of
+them work better and at the same time have a conveniently parametrizable shape.
 
 \subsection*{likelihood}
 
 % applications to real data
+
+\subsection*{Simulations}
+
 
 \section{Outreach Plan}
 
