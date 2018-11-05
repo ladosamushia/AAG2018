@@ -612,10 +612,74 @@ them work better and at the same time have a conveniently parametrizable shape.
 
 \subsection*{likelihood}
 
-% applications to real data
+Fitting model to data will result in a likelihood surface in $D_A$, $H$,
+$f\sigma_8$, and nuisance parameters. These measurements in turn can be used to
+derive DE and TG constraints in exactly the same way as for the power spectrum.
+The treatment of likelihood will be standard and we do not expect it to be
+significantly different from the standard BAO/RSD analysis. 
+
+The only potential open question is combining these measurements with the power
+spectrum BAO/RSD. In the ideal case one would like to perform a joint fit to
+power spectrum and bispectrum. In this case the joint BAO/RSD constraints would
+internally account for all the cross-correlations. This may turn out to be
+complicated because of the need for larger covariance matrices. The covariance
+of bispectra and power spectra individually is significantly easier to model.
+An alternative approach is to get the BAO/RSD correlations between power
+spectrum and bispectrum by running fits to a suit of mocks and then combining
+measurements based on empirical correlations. This approach will work as long
+as the two measurements are consistent. The amount of cross-correlation will
+be driven by the shot-noise and volume and is not likely to be very sensitive
+to cosmological parameters.
 
 \subsection*{Simulations}
 
+Many aspects of the research plan will require two types of high quality
+simulations. The first type is where the input bispectrum and power spectrum of
+the mocks are not necessarily very accurate but are known to high accuracy. We
+already have a validated pipeline for creating distributions with known
+anisotropic power spectrum and bispectrum based on the ideas put forward in
+Refs.~[]. These types of simulations are non-expensive to produce. We already
+have order of 10,000 of them for our ongoing work and could easily increase the
+number if required. We will use these simulations to test our measuring
+algorithms, and effects of the mask on measurements and covariances. 
+
+Testing theoretical models will require high quality N-body simulations that
+can be used to link underlying cosmological parameters to measured bispectrum.
+There are number of publicly available N-body simulations that are suitable for
+this task. (exhaustive list of public N-body simulations). The variety in
+sampled cosmological parameters, mass resolutions, and total volume will be
+ideal for testing the robustness of theoretical models.  E.g. the GLAM
+simulations have a cumulative volume of more than 2,000 Gpc$^3$ and a mass
+resolution of few $10^{10}$ solar masses, which should be enough to resolve
+all but the lightest halos of interest to us. These boxes are 1 Gpc per side
+which will induce some super-sample effects but they have been demonstrated to
+work well statistically for two-point functions and we have no reason to
+believe that the effect will be large for the three-point function on the
+scales of interest to us.
+
+\subsection*{Application to real data}
+
+We will be applying our methods to existing BOSS data as they develop. Even
+though because of lower number density we do not expect the results to be
+competitive, BOSS is a very well studied highly complete survey and the
+application of methods and testing outcomes will have a great value. 
+
+DESI is on schedule to start collecting data in late 2019. PI Samushia is a
+collaboration member and can get the PhD student and the Postdoc access to
+collaboration tools and data. By the time our methods are well tested on
+simulations we will be able to apply them to DESI early data. Main DESI samples
+are expected to give better results than BOSS. They will also be easier to
+model because they are at a higher redshift and more linear (at least the DM
+fields). We expect very strong constraints from DESI BGS because of its
+extremely high sampling density. The challenge there is that the low redshift
+sample will be more susceptible to nonlinear effects. If we manage to calibrate
+our models to required accuracy there is a potential to more than double
+standard BAO/RSD results form DESI BGS.
+
+Eventually, after the project is completed, the methodology will be applied to
+Euclid/WFIRST samples. Lower redshift range of WFIRST, which also has a very
+high sampling density, can potentially be very strongly enhanced by the
+bispectrum analysis.
 
 \section{Outreach Plan}
 
