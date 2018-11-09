@@ -793,21 +793,64 @@ like to extend analysis to include RSD measurements.
 
 \section{Known Risk Factors}
 
+All nontrivial research endeavours are inherently risky. In this section we
+identify the main risk factors for our project and ways of mitigating them. We
+will argue that while some risk factors can effectively lower the constraining
+power of our measurements, it is very unlikely that they will prevent us from
+getting results.
+
 % Measurements
-Point: we have codes already.
+Measuring higher order statistics involves computationally difficult algorithms
+and requires significantly higher CPU budget than standard two-point
+measurements.  In fact, if this proposal were written ten years ago, risk
+factors associated with measuring bispectrum from a large number of mocks would
+have been one of the major risk factors. Fortunately, algorithmic developments
+in last few years combined with advances in computing hardware make this risk
+almost non-existent. Our KSU group has a number of alternative pipelines for
+efficiently measuring bispectrum from a combination of FFTs. Our GPU and CPU
+codes have been thoroughly tested on controlled simulations and cross-compared
+with previously published results. The pipeline has been optimized for
+available hardware and we can compute bispectrum of all linear ($k_\mathrm{max}
+= 0.2$ Mpc) triangle monopoles and quadrupoles from order of few thousand mocks
+in order of tens of hours on a single GPU equipped workstation. Computing
+theoretical bispectrum values will be computationally expensive but is unlikely
+to be prohibitive. Likelihood analysis of bispectrum is not going to be more
+computationally expensive than the power spectrum.
+
 % Covariances
+Accurate estimation of covariance matrices is another potential difficulty that
+could limit the accuracy of derived constraints. In fact, this was the main
+limiting factor in our BOSS BAO analysis. We plan to devote significant
+fraction of our time to this issue. Our preliminary work related to further
+compression of bispectrum measurements (by selecting most sensitive triangles)
+makes us optimistic that we can successfully address this issue.
 
 % Theoretical Modeling
-Unavoidable systematics in modeling. Argument: will eventually work on large
-scales
-
-% Computational Resources
-Computationally prohibitive run-times
+Arguably, the biggest challenge for our program is the ability to theoretically
+model bispectrum at high accuracy. Our plan is to thoroughly investigate well
+studied perturbative schemes that have been already been implemented for the
+power spectrum analysis and partially also for the bispectrum analysis. The
+possibility that we will not be able to come up with a method that works well
+on semi-linear scales can not be totally excluded. We would like to note
+however that the theory is eventually bound to work on extremely large scales
+where all processes become increasingly linear. The worst case scenario then is
+that we will not be able to push our $k_\mathrm{max}$ to very high values and
+will have to stop at modestly large scales. Future surveys offer so much
+signal even on largest scales that even for this worst case scenario the
+resulting constraints will be useful (albeit perhaps not as dramatic as the
+previously advertised factor of 3 improvement in the growth rate measurements).
 
 % Observational Systematics 
 Another possible risk factor is that observational systematics associated with
 specific surveys (DESI, Euclid, WFIRST) may make the application of theory to
-data difficult. 
+data difficult. The mitigation of observational effects on standard BAO/RSD
+analysis is an active area of research in all these surveys (and PI is at the
+forefront of this research). Our plan is to stay updated with these
+developments and reimplement them for higher order statistics. It is unlikely
+that there will be observational systematics that can be mitigated for the
+power spectrum but can not be dealt with for the bispectrum. It is also not
+very likely that there will be observational effects that are specific to
+bispectrum measurements but do not affect the standard power spectrum analysis.
 
 \section{Other research activities}
 
