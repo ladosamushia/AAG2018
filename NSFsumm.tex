@@ -181,7 +181,7 @@ distortions of the feature rather than actual determination of its physical
 scale. Similarly, most of TG constraints come from radial RSD signal.
 
 % BAO/RSD in general 
-BAO is a preferred scale set by processes in yearly Universe. It manifests
+BAO is a preferred scale set by processes in early Universe. It manifests
 itself as a peak in the correlation function and an oscillatory pattern in the
 power spectrum. The BAO scale has been measured with an exquisite precision by
 CMB experiments and convincingly detected in low redshift galaxy samples. Since
@@ -384,32 +384,49 @@ significantly stronger enhancements.
 
 % previous works
 Early bispectrum measurements in galaxy distribution have been made in
-(exhaustive list of early works here with short description).
+Refs.~\cite{2014ApJ...780..139G,2011ApJ...739...85M,2011ApJ...726...13M,2009MNRAS.399..801G,2007MNRAS.378.1196K,2006MNRAS.368.1507N,2005MNRAS.364..620G,2005MNRAS.361..824G,2004PASJ...56..415K,2004ApJ...607..140J,2002MNRAS.335..432V,1975ApJ...196....1P}.
+Most of these works were focused on determining bias parameters and RSD on
+smaller scales. The galaxy samples used in these studies were relatively small
+and the modeling was not tested on the precision demanded by DESI/Euclid/WFIRST
+data.
 
-% BOSS and WiggleZ work
-More recent bispectrum measurements have been performed in WiggleZ and BOSS
-galaxy samples. 
+More recent bispectrum measurements have been performed in WiggleZ, Vipers, and
+BOSS galaxy samples. BOSS three-point function was used to detect a BAO peak
+\cite{2017MNRAS.469.1738S} and to constrain baryon to DM velocity
+\cite{2016arXiv160706098S}. BOSS bispectrum monopole was used to supplement
+power spectrum analysis of RSD
+\cite{2017MNRAS.465.1757G,2015MNRAS.452.1914G,2015MNRAS.451..539G}. Small scale
+three-point function was used to constrain growth and bias in WiggleZ
+\cite{2013MNRAS.432.2654M}, and to study dependence on galaxy type in Vipers
+\cite{2017A&A...604A.133M}.
+
 % our work
 \begin{wrapfigure}{r}{0.5\textwidth}
 \begin{center}
-\includegraphics[width=0.48\textwidth]{MonQuad.png}
+\includegraphics[width=0.48\textwidth]{prelimMCMC.png}
 \end{center}
 \end{wrapfigure}
-Our group has published a number of recent papers related to galaxy bispectrum
-analysis. In Ref.~[] we studied the ways of reducing bispectrum information
-without sacrificing information content and identified three harmonic angular
-modes that contain most relevant information. In Ref.~[] we detected a BAO
-signature in BOSS CMASS bispectrum monopole. Our measurement was systematics
-limited but still allowed us to convert the measurements to a 2 per cent
-distance measure. We showed on the mocks that a systematics free measurement
-would be slightly tighter compared to the one obtainable from the reconstructed
-power spectrum. We are currently working on extending our work to anisotropic
-bispectrum analysis. This will allow us to constrain both angular and radial
-BAO parameters. Preliminary MCMC chains from this measurement are displayed on
-Figure~2. Our proposed work would take over from here and would add RSD to the
-mix. We will also work on a more careful study of possible theoretical and
-observational systematic effects to bring the errorbars down.
 
+Our group has published a number of recent papers related to galaxy bispectrum
+analysis. In Ref.~\cite{2017MNRAS.467..928G} we studied the ways of reducing
+bispectrum information without sacrificing information content and identified
+three harmonic angular modes that contain most relevant information. In
+Ref.~\cite{2018MNRAS.478.4500P} we detected a BAO signature in BOSS CMASS
+bispectrum monopole at a 4.1$\sigma$ confidence level. This allowed us to
+get a 1.6 per cent distance measure. We are currently working on extending our
+work to anisotropic bispectrum analysis. This will allow us to constrain both
+angular and radial BAO parameters. Preliminary MCMC chains from BOSS bispectrum
+monopole and quadrupole measurement are displayed on the figure to the right,
+and clearly show the improvement from the quadrupole.
+
+To summarize, existing high precision real-data based measurements are
+currently coming only from bispectrum monopole BAO. While earlier works have
+looked at RSD measurements they are based on a significantly smaller data sets
+and the methods are not extendable to DESI/Euclid/WFIRST. Our proposed work
+would take over from here and would extend the existing work in two
+complementary directions. We will continue working on the anisotropic BAO
+measurements and validate them for the precision required by future surveys,
+and we will add large-scale bispectrum RSD to the mix.
 
 \section{Research Plan}
 

@@ -5,6 +5,8 @@
 
 % LS just checking
 \usepackage[margin=1in]{geometry}
+\usepackage[numbers,sort&compress]{natbib}
+\bibliographystyle{ieeetr}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagestyle{plain}                                                      %%
 %%%%%%%%%% EXACT 1in MARGINS %%%%%%%                                   %%
@@ -20,8 +22,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   %%
 \newcommand{\required}[1]{\section*{\hfil #1\hfil}}                    %%
 \renewcommand{\refname}{\hfil References Cited\hfil}                   %%
-\bibliographystyle{plain}                                              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\apj}{Astrophysical Journal}
+\newcommand{\aap}{Astronomy and Astrophysics}
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\pasj}{Publications of the Astronomical Society of Japan}
 
 %PUT YOUR MACROS HERE
 
@@ -43,5 +49,5 @@
 %\include{NSFrefs}
 % \setcounter{page}{1}
 %\include{NSFbio}
-
+\bibliography{NSF}
 \end{document}
