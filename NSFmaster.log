@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.1)  11 NOV 2018 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.1)  11 NOV 2018 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**NSFmaster.tex
+**NSFmaster
 (./NSFmaster.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
@@ -268,68 +268,62 @@ e
 \openout2 = `NSFsumm.aux'.
 
 
-(./NSFsumm.tex [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./NSFsumm.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 25.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1]
-Overfull \hbox (7.6779pt too wide) in paragraph at lines 119--128
-[]\OT1/cmr/m/n/10.95 Inflationary the-o-ries pre-dict that ini-tial fluc-tu-a-t
-ions have some level of pri-mor-dial non-Gaussianity
- []
+) [1
 
-[2] [3] <fz.pdf, id=23, 397.485pt x 361.35pt>
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+<fz.pdf, id=21, 397.485pt x 361.35pt>
 File: fz.pdf Graphic file (type pdf)
  <use fz.pdf>
-Package pdftex.def Info: fz.pdf used on input line 276.
+Package pdftex.def Info: fz.pdf used on input line 242.
 (pdftex.def)             Requested size: 225.4804pt x 204.98468pt.
- [4] [5 <./fz.pdf>]
-[6] <MonQuad.png, id=61, 462.528pt x 346.896pt>
+ [4 <./fz.pdf>] [5]
+<MonQuad.png, id=54, 462.528pt x 346.896pt>
 File: MonQuad.png Graphic file (type png)
  <use MonQuad.png>
-Package pdftex.def Info: MonQuad.png used on input line 412.
+Package pdftex.def Info: MonQuad.png used on input line 397.
 (pdftex.def)             Requested size: 225.4804pt x 169.11243pt.
- [7 <./MonQuad.png>] [8] [9] [10] [11] [12] [13]
-<prelimMCMC.png, id=86, 462.528pt x 346.896pt>
+ [6 <./MonQuad.png>] [7] [8] [9] [10] [11] [12] [13]
+<prelimMCMC.png, id=84, 462.528pt x 346.896pt>
 File: prelimMCMC.png Graphic file (type png)
  <use prelimMCMC.png>
-Package pdftex.def Info: prelimMCMC.png used on input line 925.
+Package pdftex.def Info: prelimMCMC.png used on input line 910.
 (pdftex.def)             Requested size: 225.4804pt x 169.11243pt.
- [14]
-[15 <./prelimMCMC.png>]) [16] (./NSFmaster.aux (./NSFsumm.aux)) ) 
+ [14 <./prelimMCMC.png>] [15]) [16] (./NSFmaster.aux (./NSFsumm.aux)) ) 
 Here is how much of TeX's memory you used:
- 2941 strings out of 493029
- 39309 string characters out of 6136234
+ 2943 strings out of 493029
+ 39333 string characters out of 6136234
  111770 words of memory out of 5000000
- 6430 multiletter control sequences out of 15000+600000
- 9806 words of font info for 37 fonts, out of 8000000 for 9000
+ 6431 multiletter control sequences out of 15000+600000
+ 10152 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,32p,235b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+ 37i,5n,32p,231b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on NSFmaster.pdf (17 pages, 345353 bytes).
+Output written on NSFmaster.pdf (16 pages, 362451 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
