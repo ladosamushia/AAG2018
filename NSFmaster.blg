@@ -4,44 +4,46 @@ The top-level auxiliary file: NSFmaster.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: NSFsumm.aux
 Database file #1: NSF.bib
-You've used 21 entries,
+Warning--I didn't find a database entry for ""
+You've used 55 entries,
             1876 wiz_defined-function locations,
-            621 strings with 11249 characters,
-and the built_in function-call counts, 8704 in all, are:
-= -- 671
-> -- 729
+            828 strings with 21523 characters,
+and the built_in function-call counts, 22474 in all, are:
+= -- 1922
+> -- 1573
 < -- 0
-+ -- 250
-- -- 229
-* -- 826
-:= -- 1398
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 21
++ -- 543
+- -- 488
+* -- 1968
+:= -- 3383
+add.period$ -- 55
+call.type$ -- 55
+change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 328
-empty$ -- 555
-format.name$ -- 229
-if$ -- 1962
+cite$ -- 55
+duplicate$ -- 950
+empty$ -- 1526
+format.name$ -- 488
+if$ -- 5248
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 21
-newline$ -- 66
-num.names$ -- 21
-pop$ -- 27
+int.to.str$ -- 55
+missing$ -- 55
+newline$ -- 168
+num.names$ -- 55
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 302
+skip$ -- 928
 stack$ -- 0
-substring$ -- 513
-swap$ -- 181
+substring$ -- 1511
+swap$ -- 565
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 57
-width$ -- 23
-write$ -- 210
+while$ -- 152
+width$ -- 57
+write$ -- 549
+(There was 1 warning)

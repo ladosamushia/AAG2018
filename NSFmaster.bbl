@@ -148,4 +148,208 @@ D.~W. {Pearson} and L.~{Samushia}, ``{A Detection of the Baryon Acoustic
   Oscillation features in the SDSS BOSS DR12 Galaxy Bispectrum},'' {\em
   \mnras}, vol.~478, pp.~4500--4512, Aug. 2018.
 
+\bibitem{2015PhRvD..92h3532S}
+R.~{Scoccimarro}, ``{Fast estimators for redshift-space clustering},'' {\em
+  \prd}, vol.~92, p.~083532, Oct. 2015.
+
+\bibitem{2018arXiv180302132S}
+N.~S. {Sugiyama}, S.~{Saito}, F.~{Beutler}, and H.-J. {Seo}, ``{A complete
+  FFT-based decomposition formalism for the redshift-space bispectrum},'' {\em
+  ArXiv e-prints}, p.~arXiv:1803.02132, Mar. 2018.
+
+\bibitem{2012PhRvD..85h3002S}
+R.~{Scoccimarro}, L.~{Hui}, M.~{Manera}, and K.~C. {Chan}, ``{Large-scale bias
+  and efficient generation of initial conditions for nonlocal primordial
+  non-Gaussianity},'' {\em \prd}, vol.~85, p.~083002, Apr. 2012.
+
+\bibitem{2012PhRvD..86l3524R}
+D.~M. {Regan}, M.~M. {Schmittfull}, E.~P.~S. {Shellard}, and J.~R. {Fergusson},
+  ``{Universal non-Gaussian initial conditions for N-body simulations},'' {\em
+  \prd}, vol.~86, p.~123524, Dec. 2012.
+
+\bibitem{2010JCAP...10..022W}
+C.~{Wagner}, L.~{Verde}, and L.~{Boubekeur}, ``{N-body simulations with generic
+  non-Gaussian initial conditions I: power spectrum and halo mass function},''
+  {\em \jcap}, vol.~10, p.~022, Oct. 2010.
+
+\bibitem{2017MNRAS.464.3121W}
+M.~J. {Wilson}, J.~A. {Peacock}, A.~N. {Taylor}, and S.~{de la Torre}, ``{Rapid
+  modelling of the redshift-space power spectrum multipoles for a masked
+  density field},'' {\em \mnras}, vol.~464, pp.~3121--3130, Jan. 2017.
+
+\bibitem{2006MNRAS.371.1188H}
+A.~J.~S. {Hamilton}, C.~D. {Rimes}, and R.~{Scoccimarro}, ``{On measuring the
+  covariance matrix of the non-linear power spectrum from simulations},'' {\em
+  \mnras}, vol.~371, pp.~1188--1204, Sept. 2006.
+
+\bibitem{2007A&A...464..399H}
+J.~{Hartlap}, P.~{Simon}, and P.~{Schneider}, ``{Why your model parameter
+  confidences might be too optimistic. Unbiased estimation of the inverse
+  covariance matrix},'' {\em \aap}, vol.~464, pp.~399--404, Mar. 2007.
+
+\bibitem{2013MNRAS.432.1928T}
+A.~{Taylor}, B.~{Joachimi}, and T.~{Kitching}, ``{Putting the precision in
+  precision cosmology: How accurate should your data covariance matrix be?},''
+  {\em \mnras}, vol.~432, pp.~1928--1946, July 2013.
+
+\bibitem{2013PhRvD..88f3537D}
+S.~{Dodelson} and M.~D. {Schneider}, ``{The effect of covariance estimator
+  error on cosmological parameter constraints},'' {\em \prd}, vol.~88,
+  p.~063537, Sept. 2013.
+
+\bibitem{2014MNRAS.439.2531P}
+W.~J. {Percival}, A.~J. {Ross}, A.~G. {S{\'a}nchez}, L.~{Samushia},
+  A.~{Burden}, R.~{Crittenden}, A.~J. {Cuesta}, M.~V. {Magana}, M.~{Manera},
+  F.~{Beutler}, C.-H. {Chuang}, D.~J. {Eisenstein}, S.~{Ho}, C.~K. {McBride},
+  F.~{Montesano}, N.~{Padmanabhan}, B.~{Reid}, S.~{Saito}, D.~P. {Schneider},
+  H.-J. {Seo}, R.~{Tojeiro}, and B.~A. {Weaver}, ``{The clustering of Galaxies
+  in the SDSS-III Baryon Oscillation Spectroscopic Survey: including covariance
+  matrix errors},'' {\em \mnras}, vol.~439, pp.~2531--2541, Apr. 2014.
+
+\bibitem{2014MNRAS.442.2728T}
+A.~{Taylor} and B.~{Joachimi}, ``{Estimating cosmological parameter
+  covariance},'' {\em \mnras}, vol.~442, pp.~2728--2738, Aug. 2014.
+
+\bibitem{2000MNRAS.317..965H}
+A.~F. {Heavens}, R.~{Jimenez}, and O.~{Lahav}, ``{Massive lossless data
+  compression and multiple parameter estimation from galaxy spectra},'' {\em
+  \mnras}, vol.~317, pp.~965--972, Oct. 2000.
+
+\bibitem{2016PhRvD..93h3525Z}
+A.~{Zablocki} and S.~{Dodelson}, ``{Extreme data compression for the CMB},''
+  {\em \prd}, vol.~93, p.~083525, Apr. 2016.
+
+\bibitem{2017MNRAS.471.1581B}
+J.~{Byun}, A.~{Eggemeier}, D.~{Regan}, D.~{Seery}, and R.~E. {Smith},
+  ``{Towards optimal cosmological parameter recovery from compressed bispectrum
+  statistics},'' {\em \mnras}, vol.~471, pp.~1581--1618, Oct. 2017.
+
+\bibitem{2017MNRAS.472.4244H}
+A.~F. {Heavens}, E.~{Sellentin}, D.~{de Mijolla}, and A.~{Vianello}, ``{Massive
+  data compression for parameter-dependent covariance matrices},'' {\em
+  \mnras}, vol.~472, pp.~4244--4250, Dec. 2017.
+
+\bibitem{2018MNRAS.476.4045G}
+D.~{Gualdi}, M.~{Manera}, B.~{Joachimi}, and O.~{Lahav}, ``{Maximal compression
+  of the redshift-space galaxy power spectrum and bispectrum},'' {\em \mnras},
+  vol.~476, pp.~4045--4070, May 2018.
+
+\bibitem{2008MNRAS.389..766P}
+A.~C. {Pope} and I.~{Szapudi}, ``{Shrinkage estimation of the power spectrum
+  covariance matrix},'' {\em \mnras}, vol.~389, pp.~766--774, Sept. 2008.
+
+\bibitem{2015MNRAS.454.4326P}
+D.~J. {Paz} and A.~G. {S{\'a}nchez}, ``{Improving the precision matrix for
+  precision cosmology},'' {\em \mnras}, vol.~454, pp.~4326--4334, Dec. 2015.
+
+\bibitem{2016MNRAS.457..993P}
+D.~W. {Pearson} and L.~{Samushia}, ``{Estimating the power spectrum covariance
+  matrix with fewer mock samples},'' {\em \mnras}, vol.~457, pp.~993--999, Mar.
+  2016.
+
+\bibitem{2016MNRAS.460.1567P}
+N.~{Padmanabhan}, M.~{White}, H.~H. {Zhou}, and R.~{O'Connell}, ``{Estimating
+  sparse precision matrices},'' {\em \mnras}, vol.~460, pp.~1567--1576, Aug.
+  2016.
+
+\bibitem{2016MNRAS.462.2681O}
+R.~{O'Connell}, D.~{Eisenstein}, M.~{Vargas}, S.~{Ho}, and N.~{Padmanabhan},
+  ``{Large covariance matrices: smooth models from the two-point correlation
+  function},'' {\em \mnras}, vol.~462, pp.~2681--2694, Nov. 2016.
+
+\bibitem{2013MNRAS.429.1514S}
+L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
+  L.~{Lombriser}, M.~{Manera}, R.~C. {Nichol}, D.~P. {Schneider}, D.~{Bizyaev},
+  H.~{Brewington}, E.~{Malanushenko}, V.~{Malanushenko}, D.~{Oravetz},
+  K.~{Pan}, A.~{Simmons}, A.~{Shelden}, S.~{Snedden}, J.~L. {Tinker}, B.~A.
+  {Weaver}, D.~G. {York}, and G.-B. {Zhao}, ``{The clustering of galaxies in
+  the SDSS-III DR9 Baryon Oscillation Spectroscopic Survey: testing deviations
+  from {\ensuremath{\Lambda}} and general relativity using anisotropic
+  clustering of galaxies},'' {\em \mnras}, vol.~429, pp.~1514--1528, Feb. 2013.
+
+\bibitem{2014MNRAS.439.3504S}
+L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
+  G.-B. {Zhao}, A.~J. {Ross}, M.~{Manera}, {\'E}.~{Aubourg}, F.~{Beutler},
+  J.~{Brinkmann}, J.~R. {Brownstein}, K.~S. {Dawson}, D.~J. {Eisenstein},
+  S.~{Ho}, K.~{Honscheid}, C.~{Maraston}, F.~{Montesano}, R.~C. {Nichol}, N.~A.
+  {Roe}, N.~P. {Ross}, A.~G. {S{\'a}nchez}, D.~J. {Schlegel}, D.~P.
+  {Schneider}, A.~{Streblyanska}, D.~{Thomas}, J.~L. {Tinker}, D.~A. {Wake},
+  B.~A. {Weaver}, and I.~{Zehavi}, ``{The clustering of galaxies in the
+  SDSS-III Baryon Oscillation Spectroscopic Survey: measuring growth rate and
+  geometry with anisotropic clustering},'' {\em \mnras}, vol.~439,
+  pp.~3504--3519, Apr. 2014.
+
+\bibitem{2012MNRAS.426.2719R}
+B.~A. {Reid}, L.~{Samushia}, M.~{White}, W.~J. {Percival}, M.~{Manera},
+  N.~{Padmanabhan}, A.~J. {Ross}, A.~G. {S{\'a}nchez}, S.~{Bailey},
+  D.~{Bizyaev}, A.~S. {Bolton}, H.~{Brewington}, J.~{Brinkmann}, J.~R.
+  {Brownstein}, A.~J. {Cuesta}, D.~J. {Eisenstein}, J.~E. {Gunn},
+  K.~{Honscheid}, E.~{Malanushenko}, V.~{Malanushenko}, C.~{Maraston}, C.~K.
+  {McBride}, D.~{Muna}, R.~C. {Nichol}, D.~{Oravetz}, K.~{Pan}, R.~{de Putter},
+  N.~A. {Roe}, N.~P. {Ross}, D.~J. {Schlegel}, D.~P. {Schneider}, H.-J. {Seo},
+  A.~{Shelden}, E.~S. {Sheldon}, A.~{Simmons}, R.~A. {Skibba}, S.~{Snedden},
+  M.~E.~C. {Swanson}, D.~{Thomas}, J.~{Tinker}, R.~{Tojeiro}, L.~{Verde}, D.~A.
+  {Wake}, B.~A. {Weaver}, D.~H. {Weinberg}, I.~{Zehavi}, and G.-B. {Zhao},
+  ``{The clustering of galaxies in the SDSS-III Baryon Oscillation
+  Spectroscopic Survey: measurements of the growth of structure and expansion
+  rate at z = 0.57 from anisotropic clustering},'' {\em \mnras}, vol.~426,
+  pp.~2719--2737, Nov. 2012.
+
+\bibitem{2015MNRAS.447..437M}
+M.~{Manera}, L.~{Samushia}, R.~{Tojeiro}, C.~{Howlett}, A.~J. {Ross}, W.~J.
+  {Percival}, H.~{Gil- Mar{\'\i}n}, J.~R. {Brownstein}, A.~{Burden}, and
+  F.~{Montesano}, ``{The clustering of galaxies in the SDSS-III Baryon
+  Oscillation Spectroscopic Survey: mock galaxy catalogues for the low-
+  redshift sample},'' {\em \mnras}, vol.~447, pp.~437--445, Feb. 2015.
+
+\bibitem{2015MNRAS.449..835R}
+A.~J. {Ross}, L.~{Samushia}, C.~{Howlett}, W.~J. {Percival}, A.~{Burden}, and
+  M.~{Manera}, ``{The clustering of the SDSS DR7 main Galaxy sample - I. A 4
+  per cent distance measure at z = 0.15},'' {\em \mnras}, vol.~449,
+  pp.~835--847, May 2015.
+
+\bibitem{2015MNRAS.449..848H}
+C.~{Howlett}, A.~J. {Ross}, L.~{Samushia}, W.~J. {Percival}, and M.~{Manera},
+  ``{The clustering of the SDSS main galaxy sample - II. Mock galaxy catalogues
+  and a measurement of the growth of structure from redshift space distortions
+  at z = 0.15},'' {\em \mnras}, vol.~449, pp.~848--866, May 2015.
+
+\bibitem{2010MNRAS.409.1525R}
+A.~{Raccanelli}, L.~{Samushia}, and W.~J. {Percival}, ``{Simulating
+  redshift-space distortions for galaxy pairs with wide angular separation},''
+  {\em \mnras}, vol.~409, pp.~1525--1533, Dec. 2010.
+
+\bibitem{2012MNRAS.420.2102S}
+L.~{Samushia}, W.~J. {Percival}, and A.~{Raccanelli}, ``{Interpreting
+  large-scale redshift-space distortion measurements},'' {\em \mnras},
+  vol.~420, pp.~2102--2119, Mar. 2012.
+
+\bibitem{2015MNRAS.452.3704S}
+L.~{Samushia}, E.~{Branchini}, and W.~J. {Percival}, ``{Geometric biases in
+  power-spectrum measurements},'' {\em \mnras}, vol.~452, pp.~3704--3709, Oct.
+  2015.
+
+\bibitem{2016MNRAS.463..467K}
+B.~{Kalus}, W.~J. {Percival}, D.~J. {Bacon}, and L.~{Samushia}, ``{Unbiased
+  contaminant removal for 3D galaxy power spectrum measurements},'' {\em
+  \mnras}, vol.~463, pp.~467--476, Nov. 2016.
+
+\bibitem{2019MNRAS.482..453K}
+B.~{Kalus}, W.~J. {Percival}, D.~J. {Bacon}, E.~M. {Mueller}, L.~{Samushia},
+  L.~{Verde}, A.~J. {Ross}, and J.~L. {Bernal}, ``{A map-based method for
+  eliminating systematic modes from galaxy clustering power spectra with
+  application to BOSS},'' {\em \mnras}, vol.~482, pp.~453--470, Jan. 2019.
+
+\bibitem{2014MNRAS.437.1109R}
+A.~J. {Ross}, L.~{Samushia}, A.~{Burden}, W.~J. {Percival}, R.~{Tojeiro},
+  M.~{Manera}, F.~{Beutler}, J.~{Brinkmann}, J.~R. {Brownstein}, A.~{Carnero},
+  L.~A.~N. {da Costa}, D.~J. {Eisenstein}, H.~{Guo}, S.~{Ho}, M.~A.~G. {Maia},
+  F.~{Montesano}, D.~{Muna}, R.~C. {Nichol}, S.~E. {Nuza}, A.~G. {S{\'a}nchez},
+  D.~P. {Schneider}, R.~A. {Skibba}, F.~{Sobreira}, A.~{Streblyanska}, M.~E.~C.
+  {Swanson}, D.~{Thomas}, J.~L. {Tinker}, D.~A. {Wake}, I.~{Zehavi}, and G.-b.
+  {Zhao}, ``{The clustering of galaxies in the SDSS-III DR10 Baryon Oscillation
+  Spectroscopic Survey: no detectable colour dependence of distance scale or
+  growth rate measurements},'' {\em \mnras}, vol.~437, pp.~1109--1126, Jan.
+  2014.
+
 \end{thebibliography}

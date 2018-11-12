@@ -381,7 +381,7 @@ compared to reconstruction it has a theoretical potential to deliver
 significantly stronger enhancements.
 
 \section{Bispectrum -- Status Quo}
-
+\label{sec:statusquo}
 % previous works
 Early bispectrum measurements in galaxy distribution have been made in
 Refs.~\cite{2014ApJ...780..139G,2011ApJ...739...85M,2011ApJ...726...13M,2009MNRAS.399..801G,2007MNRAS.378.1196K,2006MNRAS.368.1507N,2005MNRAS.364..620G,2005MNRAS.361..824G,2004PASJ...56..415K,2004ApJ...607..140J,2002MNRAS.335..432V,1975ApJ...196....1P}.
@@ -431,52 +431,40 @@ and we will add large-scale bispectrum RSD to the mix.
 \section{Research Plan}
 
 % What we will do
-Our overall goal is to develop methods of measuring BAO and RSD in large-scale
-bispectrum of galaxy surveys. Achieving this goal schematically involves five
-steps: measuring bispectrum, estimating covariance matrices, modeling or
-removing observational systematics, theoretical modeling, and likelihood
-analysis. Our tentative plans for each of these directions are briefly
-described below.
+\textbf{Our overall goal is to develop methods of measuring BAO and RSD in
+large-scale bispectrum of galaxy surveys that would be accurate enough to be
+applicable to DESI/Euclid/WFIRST data}. Achieving this goal schematically
+involves five steps: measuring bispectrum, estimating covariance matrices,
+modeling or removing observational systematics, theoretical modeling, and
+likelihood analysis. Our tentative plans for each of these directions are
+briefly described below.
 
 \subsection*{measurements}
 
-The bispectrum measurements are generally more difficult and computationally
-demanding than the power spectrum measurements. Fortunately, recent
-developments have made this task significantly easier. Recent works have
-demonstrated that even wide-angle bispectrum measurements can be reduced to a
-series of Fast Fourier Transforms (FFT), and that the triangle counting can
-also be reduced  to a combination of FFTs and convolutions. Our group has
-developed a fast GPU implementation of bispectrum multipole algorithm that has
-been validated on controlled mocks and can process order of few thousand mocks
-(of the size of BOSS CMASS sample) in order of few hours.
-
-This part of the work will be concerned with further high precision testing of
-our pipeline. We will produce particle distributions with known input power
-spectrum and bispectrum following e.g. Ref~[]. We will then check that our
-pipeline accurately reproduces the input. To accomplish this task we will not
-need to evolve the initial conditions under gravity, which will make the task
-computationally inexpensive. 
+Recent works have demonstrated that even wide-angle bispectrum measurements can
+be reduced to a series of Fast Fourier Transforms (FFT)
+\cite{2015PhRvD..92h3532S,2018arXiv180302132S}. Our group has developed a fast
+GPU implementation of bispectrum multipole algorithm that has been validated on
+controlled mocks and can process order of few thousand mocks (of the size of
+BOSS CMASS sample) in order of few hours. This part of the work will be
+concerned with further high precision testing of our pipeline. We will produce
+particle distributions with known input power spectrum and bispectrum following
+e.g. Refs~\cite{2012PhRvD..85h3002S,2012PhRvD..86l3524R,2010JCAP...10..022W}.
+We will then check that our pipeline accurately reproduces the input. To
+accomplish this task we will not need to evolve the initial conditions under
+gravity, which will make the task computationally inexpensive. 
 
 In addition, we will test methods of modeling the shot-noise and window effects
 on the measurements. We expect the simple Poisson shot-noise model to work
 sufficiently well on large scales but this expectation will be tested on
-controlled simulations. In previous works the window effects have either been
-ignored or modeled in an ad-hoc way. Exact window convolution for bispectrum
-requires computing a six-dimensional double convolution integrals which is
+controlled simulations. Exact window convolution for bispectrum requires
+computing a six-dimensional double convolution integrals which is
 computationally challenging, especially considering the fact that the
 convolution will have to be performed for every model in Monte Carlo Markov
-Chains. We will investigate approximate methods that are accurate enough for our
-purposes and fast enough to be implement in the likelihood pipeline. 
-
-Another topic that we will look into is related to the optimal reduction of
-bispectrum data. Measuring bispectrum monopole and quadrupole in fine
-wavelength bins will result in a very big data vector. This may prove
-problematic at a later stage for estimating covariance matrices. There are
-multiple possible ways of reducing the data vector size. One possibility is to
-identify the triangular shapes that carry the most information on BAO/RSD and
-remove the others. A more elaborate method along these lines would consist of
-identifying the most informative linear combinations of bispectra bins. We will
-explore all these options and will check how well they perform.
+Chains. We will extend approximate methods that have been tried on power
+spectrum (e.g. \cite{2017MNRAS.464.3121W}) and check whether they are accurate
+enough for our purposes and fast enough to be implement in the likelihood
+pipeline. 
 
 \subsection*{covariances}
 
@@ -484,23 +472,26 @@ The covariance matrices of measured bispectra provide another challenge. The
 standard method of estimating covariance matrices from a sample variance of a
 large number of mocks is complicated by the fact that there are a very large
 number of bins and an accurate estimation of covariance and precision matrices
-will require a large number of mocks. This problem becomes even more acute for
-a joint power spectrum and bispectrum analysis. The covariance matrices in this
-case are large and clearly non-diagonal.
-
-We plan to tackle this problem from two complementary directions. One is to
-somehow reduce the size of data vector so that computing covariances from the
-mocks becomes a possibility. Another route is to estimate covariances at least
-partially theoretically and calibrate theoretical estimates with mocks. 
+will require a large number of mocks
+\cite{2006MNRAS.371.1188H,2007A&A...464..399H,2013MNRAS.432.1928T,2013PhRvD..88f3537D,2014MNRAS.439.2531P,2014MNRAS.442.2728T,}.
+This problem becomes even more acute for a joint power spectrum and bispectrum
+analysis. The covariance matrices in this case are large and clearly
+non-diagonal.  We plan to tackle this problem from two complementary
+directions. One is to somehow reduce the size of data vector so that computing
+covariances from the mocks becomes a possibility. Another route is to estimate
+covariances at least partially theoretically and calibrate theoretical
+estimates with mocks. 
 
 % reducing size
-Ref.~[] showed that it is possible to compress measured bispectrum to a
-significantly smaller vector without loosing too much information. This
-approach is very effective but requires the knowledge of covariance matrix and
-is model dependent. Other approaches include further reduction of bispectrum
-multipoles into e.g. first few multipoles in triangular configuration angle, or
-identifying few principal components and only using them in the analysis. All
-these approaches can be tested in a straightforward manner on mocks.
+There are tested ways of compressing measured bispectrum to a significantly
+smaller vector without loosing too much information
+\cite{2000MNRAS.317..965H,2016PhRvD..93h3525Z,2017MNRAS.471.1581B,2017MNRAS.472.4244H,2018MNRAS.476.4045G}.
+This approach is very effective but requires the knowledge of covariance matrix
+and is model dependent. Other approaches include further reduction of
+bispectrum multipoles into e.g. first few multipoles in triangular
+configuration angle, or identifying few principal components and only using
+them in the analysis. All these approaches can be tested in a straightforward
+manner on mocks.
 
 % theory
 The exact theoretical estimation of bispectrum covariance would require
@@ -509,18 +500,13 @@ however likely that, especially at high redshifts, the covariance is dominated
 by the leading order terms which are reasonably easy to compute. The biggest
 effect would than be the effect of the mask on covariance and the coupling
 between shot-noise and mask effects. We will borrow some recent ideas that were
-demonstrated to work for the power spectrum (Refs.~[]) and will generalize them
-for the bispectrum while making additional simplifications (e.g. assuming that
-the bispectrum window function isotropic). Taking into account the fact that
+studied in the context of power spectrum (e.g. Refs.~\cite{2008MNRAS.389..766P,2015MNRAS.454.4326P,2016MNRAS.457..993P,2016MNRAS.460.1567P,2016MNRAS.462.2681O}) and will
+generalize them for the bispectrum. Taking into account the fact that
 fractional error in bispectrum in individual bins is lower than for the power
 spectrum and that our requirement on the accuracy of covariance matrix is not
 as stringent as a similar requirement on the model, we will identify
 approximations that are good enough for our purposes and do not bias likelihood
-fitting strongly. We can then use methods such as shrinkage to combine our
-theoretical covariance with the sample variance. For this approach to work we
-do not really need parameter free covariance matrices. Presence of few extra,
-physically motivated, parameters would be acceptable and they would later be
-calibrated on simulations.
+fitting strongly. 
 
 \subsection*{observational systematics}
 
@@ -532,28 +518,26 @@ flux). These systematic inefficiencies are usually expressed either in terms of
 visibility cubes (implemented in practice as random catalogs) or as sets of
 per object weights. The mitigation of observational systematics is a very high
 priority task for DESI/Euclid/WFIRST collaborations. We will closely follow
-this work (PI Samushia is actually involved with some of this work) and will
+this work (PI Samushia is actively involved with most of this work) and will
 implement the known mitigation techniques in our bispectrum analysis. It is
 difficult to imagine observational systematics that would be either exclusive
 to the bispectrum or significantly more severe.
 
 % bitwise weights
-There are some systematics that may not directly translate from the power
-spectrum analysis and may require a separate investigation. These are the
-systematics that affect the configuration space and can not be split into a
-product of one-point weights. A good example of this type of systematics is
-e.g. fiber assignment effects in DESI and slitless-spectroscopy effects in
-Euclid.
-
-Two proposed methods of dealing with fiber assignment effects are to remove the
+Some systematics may not directly translate from the power spectrum analysis
+and may require a separate investigation. These are the systematics that affect
+the configuration space and can not be split into a product of one-point
+weights. A good example of this type of systematics is e.g. fiber assignment
+effects in DESI and slitless-spectroscopy effects in Euclid \cite{}. Two
+proposed methods of dealing with fiber assignment effects are to remove the
 most affected modes or to use a pair-wise weighting. Even though the power
 spectrum specific versions of these methods can not be directly applied to
 bispectrum they can be easily generalised. It should be reasonably
 straightforward to identify the most affected bispectrum configurations and to
-exclude them from the analysis. It should also be reasonably straightforward
-to generalise pair-wise weighting schemes to triplet-wise weighting. In fact,
-the bit-wise weights as implemented in Ref.~[] can be very easily translated
-into triplet-wise weights.
+exclude them from the analysis. It should also be reasonably straightforward to
+generalise pair-wise weighting schemes to triplet-wise weighting. In fact, the
+bit-wise weights as implemented in Ref.~[] can be very easily translated into
+triplet-wise weights.
 
 In summary, our main concern here is to make sure that we are on top of ongoing
 systematics work and to generalise and validate developed methods for higher
@@ -661,16 +645,9 @@ algorithms, and effects of the mask on measurements and covariances.
 Testing theoretical models will require high quality N-body simulations that
 can be used to link underlying cosmological parameters to measured bispectrum.
 There are number of publicly available N-body simulations that are suitable for
-this task. (exhaustive list of public N-body simulations). The variety in
-sampled cosmological parameters, mass resolutions, and total volume will be
-ideal for testing the robustness of theoretical models.  E.g. the GLAM
-simulations have a cumulative volume of more than 2,000 Gpc$^3$ and a mass
-resolution of few $10^{10}$ solar masses, which should be enough to resolve
-all but the lightest halos of interest to us. These boxes are 1 Gpc per side
-which will induce some super-sample effects but they have been demonstrated to
-work well statistically for two-point functions and we have no reason to
-believe that the effect will be large for the three-point function on the
-scales of interest to us.
+this task \cite{}. They span a wide range of cosmological parameters, mass
+resolutions, and total volume and are ideal for testing the robustness of
+theoretical models.  
 
 \subsection*{Application to real data}
 
@@ -735,10 +712,15 @@ hands-on physics research experience.
 
 % General survey staff 
 PI Samushia has an extensive experience of working with spectroscopic galaxy
-survey data. He was involved with the BOSS survey and led a number of key
-projects related to the BAO and RSD analysis of two-point statistics. He has
-also worked on systematic mitigation techniques including wide-angle effects
-[], mode-nulling techniques [], and selection function related systematics [].
+survey data. He was involved with the BOSS survey, led a number of key projects
+related to the BAO and RSD analysis of two-point statistics
+\cite{2013MNRAS.429.1514S,2014MNRAS.439.3504S}, and significantly contributed
+to many others
+\cite{2012MNRAS.426.2719R,2015MNRAS.447..437M,2015MNRAS.449..835R,2015MNRAS.449..848H},
+He has also worked on systematic mitigation techniques including wide-angle
+effects \cite{2010MNRAS.409.1525R,2012MNRAS.420.2102S,2015MNRAS.452.3704S},
+mode-nulling techniques \cite{2016MNRAS.463..467K,2019MNRAS.482..453K}, and
+selection function related systematics \cite{2014MNRAS.437.1109R}.
 
 PI is actively involved in three major near future surveys: DESI, Euclid, and
 WFIRST. He is leading observational systematics work-package for Euclid, the
@@ -747,47 +729,28 @@ catalogue pipeline in DESI. He will transfer his knowledge of intricacies
 involved with working on real data from surveys to junior team members, which
 will tremendously benefit our project.
 
-% Bispectrum forecasts
-Our group has recently gotten involved with the bispectrum analysis. In Ref.~[]
-we investigated the ways of reducing bispectrum data and demonstrated that all
-the cosmologically relevant information is contained in three bispectrum
-multipoles. We also developed a bispectrum Fisher information code and showed
-that at least for some galaxy surveys (DESI BGS, WFIRST) the bispectrum has a
-potential to significantly enhance cosmological constraints coming from the
-power spectrum.
-
-% Bispectrum BAO
-In Ref.~[] we detected a BAO feature in BOSS CMASS bispectrum monopole at
-3.7$\sigma$ significance level. We were able to translate this detection into a
-2 per cent measurement of an isotropic distance scale. Our results were
-consistent with the configuration space measurements of Ref.~[]. The main
-limiting factor in the accuracy of our measurements was the stochasticity in
-covariance matrix estimates that propagated to cosmological parameters, the
-problem we have been working on since then.
-
 % Quadrupole 
-We are currently working on making the bispectrum BAO measurements more
-accurate and extending them to bispectrum quadrupole. Tests on mock
-catalogues suggested that our bispectrum monopole BAO measurement was not
-strongly affected by theoretical systematics at the level of BOSS errorbars. A
-more careful investigation is merited, however, if the same analysis were to be
-applied to DESI data, which has significantly stronger statistical power.
-Another direction of our recent research is related to finding better ways of
-reducing bispectrum data. By looking at most sensitive combinations we were
-able to cut our data vector size by a factor of more than five without
-sacrificing constraining power. The efforts to extend analysis to bispectrum
-quadrupole are also promising. Figure 3 shows bispectrum monopole and
-quadrupole measurements from BOSS mocks. They have been normalized to
-``no-BAO'' bispectrum to make BAO feature more pronounced. Extending analysis
-to quadrupole allows us to significantly shrink the size of errorbars and
-constrain $D_A$ and $H$ separately. We are currently working on making sure
-that the measurements are not affected by systematics at least at the level
-relevant to BOSS data.
-
-The project that we propose naturally follows from our published and ongoing
-work. We will have to refine analysis methods being applied to BOSS data to
-make sure that they will be suitable for DESI/Euclid/WFIRST data; And we would
-like to extend analysis to include RSD measurements.
+We briefly described our bispectrum related recent work in
+section~\ref{sec:statusquo}.  We are currently working on making the bispectrum
+BAO measurements more accurate and extending them to bispectrum quadrupole.
+Tests on mock catalogues suggested that our bispectrum monopole BAO measurement
+was not strongly affected by theoretical systematics at the level of BOSS
+errorbars. A more careful investigation is merited, however, if the same
+analysis were to be applied to DESI data, which has significantly stronger
+statistical power.  Another direction of our recent research is related to
+finding better ways of reducing bispectrum data. By looking at most sensitive
+combinations we were able to cut our data vector size by a factor of more than
+five without sacrificing constraining power. This is relevant to the accurate
+estimation of covariance matrices. Ongoing efforts to extend BAO analysis to
+bispectrum quadrupole are also promising. Extending analysis to quadrupole
+allows us to significantly shrink the size of errorbars and constrain $D_A$ and
+$H$ separately (see figure in section~\ref{sec:statusquo}). We are currently
+working on making sure that the measurements are not affected by systematics at
+least at the level relevant to BOSS data. The project that we propose naturally
+follows from our published and ongoing work. We will have to refine analysis
+methods being applied to BOSS data to make sure that they will be suitable for
+DESI/Euclid/WFIRST data; And we would like to extend analysis to include RSD
+measurements.
 
 % Bharat
 
@@ -876,8 +839,8 @@ project.
 PI Ratra is a world renown expert on DE modeling. He authored seminal early
 papers on DE modeling, and a recent, highly cited review paper on cosmology.
 His most recent works include analysis of CMB and BAO datasets in light of
-non-standard models. He is currently partially funded by DOE to work on
-observational implications of non-flat models.
+non-standard models. He is currently partially funded (one month of summer
+support) by DOE to work on observational implications of non-flat models.
 
 \required{Previous NSF Support}
 
@@ -899,7 +862,7 @@ mission to Mars; and study the effect of the Moon blockage on muon emission
 rates from the direction of the Sun by making measurements in the direction of
 the Sun, before, during, and after the 2017 August 21 Solar-eclipse totality.
 
-The PI is responsible for seven full days of teacher-centered QuarkNet
+The Co-PI is responsible for seven full days of teacher-centered QuarkNet
 activities each year. Typically more than 15 teachers visit at a time and
 typically over 100 high school students take part. Teachers are exposed to many
 different physics activities, recent ones have included classes or workshops on
@@ -925,6 +888,7 @@ KSU Physics majors.
 \includegraphics[width=0.48\textwidth]{prelimMCMC.png}
 \end{center}
 \end{wrapfigure}
+
 The main outcome of this project will be the methods of extracting BAO/RSD
 constraints from measured galaxy bispectrum. The main merit of this enterprise
 is that these constraints will help to significantly tighten constraints on DE
