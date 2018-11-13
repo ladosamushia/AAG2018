@@ -9,45 +9,45 @@ Repeated entry---line 2285 of file NSF.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-You've used 73 entries,
+You've used 111 entries,
             1876 wiz_defined-function locations,
-            926 strings with 24682 characters,
-and the built_in function-call counts, 26961 in all, are:
-= -- 2364
-> -- 1761
+            1142 strings with 31646 characters,
+and the built_in function-call counts, 38010 in all, are:
+= -- 3459
+> -- 2237
 < -- 0
-+ -- 612
-- -- 539
-* -- 2294
-:= -- 4023
-add.period$ -- 73
-call.type$ -- 73
-change.case$ -- 73
++ -- 786
+- -- 675
+* -- 3100
+:= -- 5572
+add.period$ -- 111
+call.type$ -- 111
+change.case$ -- 111
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 1200
-empty$ -- 1905
-format.name$ -- 539
-if$ -- 6353
+cite$ -- 111
+duplicate$ -- 1805
+empty$ -- 2788
+format.name$ -- 675
+if$ -- 9092
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 73
-newline$ -- 222
-num.names$ -- 73
-pop$ -- 106
+int.to.str$ -- 111
+missing$ -- 111
+newline$ -- 336
+num.names$ -- 111
+pop$ -- 169
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1134
+skip$ -- 1686
 stack$ -- 0
-substring$ -- 1729
-swap$ -- 689
+substring$ -- 2343
+swap$ -- 1027
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 187
-width$ -- 75
-write$ -- 717
+while$ -- 276
+width$ -- 114
+write$ -- 1092
 (There was 1 error message)

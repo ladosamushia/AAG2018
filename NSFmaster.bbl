@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{2014ApJ...780..139G}
 H.~{Guo}, C.~{Li}, Y.~P. {Jing}, and G.~{B{\"o}rner}, ``{Stellar Mass and Color
@@ -257,6 +257,206 @@ R.~{O'Connell}, D.~{Eisenstein}, M.~{Vargas}, S.~{Ho}, and N.~{Padmanabhan},
   ``{Large covariance matrices: smooth models from the two-point correlation
   function},'' {\em \mnras}, vol.~462, pp.~2681--2694, Nov. 2016.
 
+\bibitem{2017JCAP...04..008P}
+L.~{Pinol}, R.~N. {Cahn}, N.~{Hand}, U.~{Seljak}, and M.~{White}, ``{Imprint of
+  DESI fiber assignment on the anisotropic power spectrum of emission line
+  galaxies},'' {\em \jcap}, vol.~4, p.~008, Apr. 2017.
+
+\bibitem{2018MNRAS.481.2338B}
+D.~{Bianchi}, A.~{Burden}, W.~J. {Percival}, D.~{Brooks}, R.~N. {Cahn}, J.~E.
+  {Forero-Romero}, M.~{Levi}, A.~J. {Ross}, and G.~{Tarle}, ``{Unbiased
+  clustering estimates with the DESI fibre assignment},'' {\em \mnras},
+  vol.~481, pp.~2338--2348, Dec. 2018.
+
+\bibitem{2017JCAP...03..001B}
+A.~{Burden}, N.~{Padmanabhan}, R.~N. {Cahn}, M.~J. {White}, and L.~{Samushia},
+  ``{Mitigating the impact of the DESI fiber assignment on galaxy
+  clustering},'' {\em \jcap}, vol.~3, p.~001, Mar. 2017.
+
+\bibitem{2017MNRAS.472.1106B}
+D.~{Bianchi} and W.~J. {Percival}, ``{Unbiased clustering estimation in the
+  presence of missing observations},'' {\em \mnras}, vol.~472, pp.~1106--1118,
+  Nov. 2017.
+
+\bibitem{2017MNRAS.472L..40P}
+W.~J. {Percival} and D.~{Bianchi}, ``{Using angular pair upweighting to improve
+  3D clustering measurements},'' {\em \mnras}, vol.~472, pp.~L40--L44, Nov.
+  2017.
+
+\bibitem{2018arXiv181000323Y}
+L.~{Yang}, Y.~{Jing}, X.~{Yang}, and J.~{Han}, ``{Using modified nearest
+  neighbor method to correct fiber collision effects on galaxy clustering},''
+  {\em ArXiv e-prints}, Sept. 2018.
+
+\bibitem{2018arXiv180907355S}
+A.~{Smith}, J.-h. {He}, S.~{Cole}, L.~{Stothert}, P.~{Norberg}, C.~{Baugh},
+  D.~{Bianchi}, M.~J. {Wilson}, D.~{Brooks}, J.~E. {Forero-Romero},
+  J.~{Moustakas}, W.~J. {Percival}, G.~{Tarle}, and R.~H. {Wechsler},
+  ``{Correcting for Fibre Assignment Incompleteness in the DESI Bright Galaxy
+  Survey},'' {\em ArXiv e-prints}, Sept. 2018.
+
+\bibitem{1981MNRAS.197..931J}
+R.~{Juszkiewicz}, ``{On the evolution of cosmological adiabatic perturbations
+  in the weakly non-linear regime},'' {\em \mnras}, vol.~197, pp.~931--940,
+  Dec. 1981.
+
+\bibitem{1983MNRAS.203..345V}
+E.~T. {Vishniac}, ``{Why weakly non-linear effects are small in a zero-pressure
+  cosmology},'' {\em \mnras}, vol.~203, pp.~345--349, Apr. 1983.
+
+\bibitem{1986ApJ...311....6G}
+M.~H. {Goroff}, B.~{Grinstein}, S.-J. {Rey}, and M.~B. {Wise}, ``{Coupling of
+  modes of cosmological mass density fluctuations},'' {\em \apj}, vol.~311,
+  pp.~6--14, Dec. 1986.
+
+\bibitem{1992PhRvD..46..585M}
+N.~{Makino}, M.~{Sasaki}, and Y.~{Suto}, ``{Analytic approach to the
+  perturbative expansion of nonlinear gravitational fluctuations in
+  cosmological density and velocity fields},'' {\em \prd}, vol.~46,
+  pp.~585--602, July 1992.
+
+\bibitem{1994ApJ...431..495J}
+B.~{Jain} and E.~{Bertschinger}, ``{Second-order power spectrum and nonlinear
+  evolution at high redshift},'' {\em \apj}, vol.~431, pp.~495--505, Aug. 1994.
+
+\bibitem{1992MNRAS.254..729B}
+T.~{Buchert}, ``{Lagrangian theory of gravitational instability of
+  Friedman-Lemaitre cosmologies and the 'Zel'dovich approximation'},'' {\em
+  \mnras}, vol.~254, pp.~729--737, Feb. 1992.
+
+\bibitem{1993MNRAS.264..375B}
+T.~{Buchert} and J.~{Ehlers}, ``{Lagrangian theory of gravitational instability
+  of Friedman-Lemaitre cosmologies -- second-order approach: an improved model
+  for non-linear clustering},'' {\em \mnras}, vol.~264, Sept. 1993.
+
+\bibitem{1994MNRAS.267..811B}
+T.~{Buchert}, ``{Lagrangian Theory of Gravitational Instability of
+  Friedman-Lemaitre Cosmologies - a Generic Third-Order Model for Nonlinear
+  Clustering},'' {\em \mnras}, vol.~267, p.~811, Apr. 1994.
+
+\bibitem{1995A&A...296..575B}
+F.~R. {Bouchet}, S.~{Colombi}, E.~{Hivon}, and R.~{Juszkiewicz},
+  ``{Perturbative Lagrangian approach to gravitational instability.},'' {\em
+  \aap}, vol.~296, p.~575, Apr. 1995.
+
+\bibitem{2007PhRvD..75d3514M}
+P.~{McDonald}, ``{Dark matter clustering: A simple renormalization group
+  approach},'' {\em \prd}, vol.~75, p.~043514, Feb. 2007.
+
+\bibitem{2008ApJ...674..617T}
+A.~{Taruya} and T.~{Hiramatsu}, ``{A Closure Theory for Nonlinear Evolution of
+  Cosmological Power Spectra},'' {\em \apj}, vol.~674, pp.~617--635, Feb. 2008.
+
+\bibitem{2008JCAP...10..036P}
+M.~{Pietroni}, ``{Flowing with time: a new approach to non-linear cosmological
+  perturbations},'' {\em \jcap}, vol.~10, p.~036, Oct. 2008.
+
+\bibitem{2006PhRvD..73f3519C}
+M.~{Crocce} and R.~{Scoccimarro}, ``{Renormalized cosmological perturbation
+  theory},'' {\em \prd}, vol.~73, p.~063519, Mar. 2006.
+
+\bibitem{2006PhRvD..73f3520C}
+M.~{Crocce} and R.~{Scoccimarro}, ``{Memory of initial conditions in
+  gravitational clustering},'' {\em \prd}, vol.~73, p.~063520, Mar. 2006.
+
+\bibitem{2008PhRvD..77b3533C}
+M.~{Crocce} and R.~{Scoccimarro}, ``{Nonlinear evolution of baryon acoustic
+  oscillations},'' {\em \prd}, vol.~77, p.~023533, Jan. 2008.
+
+\bibitem{2009PhRvD..80d3531C}
+J.~{Carlson}, M.~{White}, and N.~{Padmanabhan}, ``{Critical look at
+  cosmological perturbation theory techniques},'' {\em \prd}, vol.~80,
+  p.~043531, Aug. 2009.
+
+\bibitem{2018PhR...733....1D}
+V.~{Desjacques}, D.~{Jeong}, and F.~{Schmidt}, ``{Large-scale galaxy bias},''
+  {\em \physrep}, vol.~733, pp.~1--193, Feb. 2018.
+
+\bibitem{1993ApJ...413..447F}
+J.~N. {Fry} and E.~{Gaztanaga}, ``{Biasing and hierarchical statistics in
+  large-scale structure},'' {\em \apj}, vol.~413, pp.~447--452, Aug. 1993.
+
+\bibitem{2012PhRvD..85h3509C}
+K.~C. {Chan}, R.~{Scoccimarro}, and R.~K. {Sheth}, ``{Gravity and large-scale
+  nonlocal bias},'' {\em \prd}, vol.~85, p.~083509, Apr. 2012.
+
+\bibitem{2012PhRvD..86h3540B}
+T.~{Baldauf}, U.~{Seljak}, V.~{Desjacques}, and P.~{McDonald}, ``{Evidence for
+  quadratic tidal tensor bias from the halo bispectrum},'' {\em \prd}, vol.~86,
+  p.~083540, Oct. 2012.
+
+\bibitem{1972MNRAS.156P...1J}
+J.~C. {Jackson}, ``{A critique of Rees's theory of primordial gravitational
+  radiation},'' {\em \mnras}, vol.~156, p.~1P, 1972.
+
+\bibitem{2005ApJ...630....1Z}
+I.~{Zehavi}, Z.~{Zheng}, D.~H. {Weinberg}, J.~A. {Frieman}, A.~A. {Berlind},
+  M.~R. {Blanton}, R.~{Scoccimarro}, R.~K. {Sheth}, M.~A. {Strauss}, I.~{Kayo},
+  Y.~{Suto}, M.~{Fukugita}, O.~{Nakamura}, N.~A. {Bahcall}, J.~{Brinkmann},
+  J.~E. {Gunn}, G.~S. {Hennessy}, {\v Z}.~{Ivezi{\'c}}, G.~R. {Knapp},
+  J.~{Loveday}, A.~{Meiksin}, D.~J. {Schlegel}, D.~P. {Schneider},
+  I.~{Szapudi}, M.~{Tegmark}, M.~S. {Vogeley}, D.~G. {York}, and {SDSS
+  Collaboration}, ``{The Luminosity and Color Dependence of the Galaxy
+  Correlation Function},'' {\em \apj}, vol.~630, pp.~1--27, Sept. 2005.
+
+\bibitem{2016MNRAS.455L..77H}
+C.~{Hikage} and K.~{Yamamoto}, ``{Fingers-of-God effect of infalling satellite
+  galaxies},'' {\em \mnras}, vol.~455, pp.~L77--L81, Jan. 2016.
+
+\bibitem{2009ApJ...691..569J}
+D.~{Jeong} and E.~{Komatsu}, ``{Perturbation Theory Reloaded. II. Nonlinear
+  Bias, Baryon Acoustic Oscillations, and Millennium Simulation in Real
+  Space},'' {\em \apj}, vol.~691, pp.~569--595, Jan. 2009.
+
+\bibitem{1995ApJ...448..494F}
+K.~B. {Fisher}, ``{On the Validity of the Streaming Model for the
+  Redshift-Space Correlation Function in the Linear Regime},'' {\em \apj},
+  vol.~448, p.~494, Aug. 1995.
+
+\bibitem{2018MNRAS.479.2256K}
+J.~{Kuruvilla} and C.~{Porciani}, ``{On the streaming model for redshift-space
+  distortions},'' {\em \mnras}, vol.~479, pp.~2256--2276, Sept. 2018.
+
+\bibitem{2016PhRvD..94l3522K}
+M.~{Kopp}, C.~{Uhlemann}, and I.~{Achitouv}, ``{Gaussian streaming with the
+  truncated Zel'dovich approximation},'' {\em \prd}, vol.~94, p.~123522, Dec.
+  2016.
+
+\bibitem{2016JCAP...12..007V}
+Z.~{Vlah}, E.~{Castorina}, and M.~{White}, ``{The Gaussian streaming model and
+  convolution Lagrangian effective field theory},'' {\em \jcap}, vol.~12,
+  p.~007, Dec. 2016.
+
+\bibitem{2015PhRvD..92f3004U}
+C.~{Uhlemann}, M.~{Kopp}, and T.~{Haugg}, ``{Edgeworth streaming model for
+  redshift space distortions},'' {\em \prd}, vol.~92, p.~063004, Sept. 2015.
+
+\bibitem{2012MNRAS.426.2719R}
+B.~A. {Reid}, L.~{Samushia}, M.~{White}, W.~J. {Percival}, M.~{Manera},
+  N.~{Padmanabhan}, A.~J. {Ross}, A.~G. {S{\'a}nchez}, S.~{Bailey},
+  D.~{Bizyaev}, A.~S. {Bolton}, H.~{Brewington}, J.~{Brinkmann}, J.~R.
+  {Brownstein}, A.~J. {Cuesta}, D.~J. {Eisenstein}, J.~E. {Gunn},
+  K.~{Honscheid}, E.~{Malanushenko}, V.~{Malanushenko}, C.~{Maraston}, C.~K.
+  {McBride}, D.~{Muna}, R.~C. {Nichol}, D.~{Oravetz}, K.~{Pan}, R.~{de Putter},
+  N.~A. {Roe}, N.~P. {Ross}, D.~J. {Schlegel}, D.~P. {Schneider}, H.-J. {Seo},
+  A.~{Shelden}, E.~S. {Sheldon}, A.~{Simmons}, R.~A. {Skibba}, S.~{Snedden},
+  M.~E.~C. {Swanson}, D.~{Thomas}, J.~{Tinker}, R.~{Tojeiro}, L.~{Verde}, D.~A.
+  {Wake}, B.~A. {Weaver}, D.~H. {Weinberg}, I.~{Zehavi}, and G.-B. {Zhao},
+  ``{The clustering of galaxies in the SDSS-III Baryon Oscillation
+  Spectroscopic Survey: measurements of the growth of structure and expansion
+  rate at z = 0.57 from anisotropic clustering},'' {\em \mnras}, vol.~426,
+  pp.~2719--2737, Nov. 2012.
+
+\bibitem{2010PhRvD..82f3522T}
+A.~{Taruya}, T.~{Nishimichi}, and S.~{Saito}, ``{Baryon acoustic oscillations
+  in 2D: Modeling redshift-space power spectrum from perturbation theory},''
+  {\em \prd}, vol.~82, p.~063522, Sept. 2010.
+
+\bibitem{2017PhRvD..96d3526H}
+I.~{Hashimoto}, Y.~{Rasera}, and A.~{Taruya}, ``{Precision cosmology with
+  redshift-space bispectrum: A perturbation theory based model at one-loop
+  order},'' {\em \prd}, vol.~96, p.~043526, Aug. 2017.
+
 \bibitem{2013MNRAS.429.1514S}
 L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
   L.~{Lombriser}, M.~{Manera}, R.~C. {Nichol}, D.~P. {Schneider}, D.~{Bizyaev},
@@ -278,22 +478,6 @@ L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
   SDSS-III Baryon Oscillation Spectroscopic Survey: measuring growth rate and
   geometry with anisotropic clustering},'' {\em \mnras}, vol.~439,
   pp.~3504--3519, Apr. 2014.
-
-\bibitem{2012MNRAS.426.2719R}
-B.~A. {Reid}, L.~{Samushia}, M.~{White}, W.~J. {Percival}, M.~{Manera},
-  N.~{Padmanabhan}, A.~J. {Ross}, A.~G. {S{\'a}nchez}, S.~{Bailey},
-  D.~{Bizyaev}, A.~S. {Bolton}, H.~{Brewington}, J.~{Brinkmann}, J.~R.
-  {Brownstein}, A.~J. {Cuesta}, D.~J. {Eisenstein}, J.~E. {Gunn},
-  K.~{Honscheid}, E.~{Malanushenko}, V.~{Malanushenko}, C.~{Maraston}, C.~K.
-  {McBride}, D.~{Muna}, R.~C. {Nichol}, D.~{Oravetz}, K.~{Pan}, R.~{de Putter},
-  N.~A. {Roe}, N.~P. {Ross}, D.~J. {Schlegel}, D.~P. {Schneider}, H.-J. {Seo},
-  A.~{Shelden}, E.~S. {Sheldon}, A.~{Simmons}, R.~A. {Skibba}, S.~{Snedden},
-  M.~E.~C. {Swanson}, D.~{Thomas}, J.~{Tinker}, R.~{Tojeiro}, L.~{Verde}, D.~A.
-  {Wake}, B.~A. {Weaver}, D.~H. {Weinberg}, I.~{Zehavi}, and G.-B. {Zhao},
-  ``{The clustering of galaxies in the SDSS-III Baryon Oscillation
-  Spectroscopic Survey: measurements of the growth of structure and expansion
-  rate at z = 0.57 from anisotropic clustering},'' {\em \mnras}, vol.~426,
-  pp.~2719--2737, Nov. 2012.
 
 \bibitem{2015MNRAS.447..437M}
 M.~{Manera}, L.~{Samushia}, R.~{Tojeiro}, C.~{Howlett}, A.~J. {Ross}, W.~J.

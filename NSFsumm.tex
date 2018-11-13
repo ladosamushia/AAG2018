@@ -473,7 +473,7 @@ standard method of estimating covariance matrices from a sample variance of a
 large number of mocks is complicated by the fact that there are a very large
 number of bins and an accurate estimation of covariance and precision matrices
 will require a large number of mocks
-\cite{2006MNRAS.371.1188H,2007A&A...464..399H,2013MNRAS.432.1928T,2013PhRvD..88f3537D,2014MNRAS.439.2531P,2014MNRAS.442.2728T,}.
+\cite{2006MNRAS.371.1188H,2007A&A...464..399H,2013MNRAS.432.1928T,2013PhRvD..88f3537D,2014MNRAS.439.2531P,2014MNRAS.442.2728T}.
 This problem becomes even more acute for a joint power spectrum and bispectrum
 analysis. The covariance matrices in this case are large and clearly
 non-diagonal.  We plan to tackle this problem from two complementary
@@ -528,20 +528,17 @@ Some systematics may not directly translate from the power spectrum analysis
 and may require a separate investigation. These are the systematics that affect
 the configuration space and can not be split into a product of one-point
 weights. A good example of this type of systematics is e.g. fiber assignment
-effects in DESI and slitless-spectroscopy effects in Euclid \cite{}. Two
+effects in DESI and slitless-spectroscopy effects in Euclid. Two
 proposed methods of dealing with fiber assignment effects are to remove the
-most affected modes or to use a pair-wise weighting. Even though the power
+most affected modes or to use a pair-wise weighting \cite{2017JCAP...04..008P,2018MNRAS.481.2338B,2017JCAP...03..001B,2017MNRAS.472.1106B,2017MNRAS.472L..40P,2018arXiv181000323Y,2018arXiv180907355S}. Even though the power
 spectrum specific versions of these methods can not be directly applied to
 bispectrum they can be easily generalised. It should be reasonably
 straightforward to identify the most affected bispectrum configurations and to
 exclude them from the analysis. It should also be reasonably straightforward to
-generalise pair-wise weighting schemes to triplet-wise weighting. In fact, the
-bit-wise weights as implemented in Ref.~[] can be very easily translated into
-triplet-wise weights.
-
-In summary, our main concern here is to make sure that we are on top of ongoing
-systematics work and to generalise and validate developed methods for higher
-order statistics.
+generalise pair-wise weighting schemes to triplet-wise weighting. To summarize,
+our main concern here is to make sure that we are on top of ongoing systematics
+work and to generalise and validate developed methods for higher order
+statistics.
 
 \subsection*{modeling}
 
@@ -553,57 +550,69 @@ of DM, nonlinearities in halo-to-DM and galaxy-to-halo relationship, and
 nonlinearities in redshift-to-real space mapping.
 
 % nonlinear
-Nonlinear evolution of DM field is an extensively studied subject. Pioneering
-works have shown that perturbative approaches work on large scales. The rate of
-convergence of standard perturbation theory (STP) is slow, which prompted a
-development of alternative approaches including Lagrangian perturbation theory,
-closure theory, and various resummation and renormalization schemes.
+\textbf{Nonlinear evolution of DM} field is an extensively studied subject
+\cite{1981MNRAS.197..931J,1983MNRAS.203..345V,1986ApJ...311....6G,1992PhRvD..46..585M,1994ApJ...431..495J}.
+Pioneering works have shown that perturbative approaches work on large scales.
+The rate of convergence of standard perturbation theory is slow , which
+prompted a development of alternative approaches including Lagrangian
+perturbation theory
+\cite{1992MNRAS.254..729B,1993MNRAS.264..375B,1994MNRAS.267..811B,1995A&A...296..575B},
+closure theory
+\cite{2007PhRvD..75d3514M,2008ApJ...674..617T,2008JCAP...10..036P}, and various
+resummation and renormalization schemes
+\cite{2006PhRvD..73f3519C,2006PhRvD..73f3520C,2008PhRvD..77b3533C}.
 Perturbation theory for bispectrum is generally more challenging because of
 numerical issues associated with higher dimensional integrals and even slower
 convergence than for a second order statistics. The nonlinear effects in DM
 growth however are expected to become milder with redshift. For high redshift
 samples form DESI/Euclid/WFIRST the modeling of pure DM nonlinearities will be
-a significantly easier task. We plan to work on a project similar to Ref.~[]
-where the outcomes of various perturbation theory approaches will be tested on
-simulations on the same footing and a careful test of validity will be
-performed and a safe minimal scale will be determined for all models.
+a significantly easier task. We plan to work on a project similar to
+Ref.~\cite{2009PhRvD..80d3531C} where the outcomes of various perturbation
+theory approaches will be tested on simulations on the same footing and a
+careful test of validity will be performed and a safe minimal scale will be
+determined for all models.
 
 % bias
-The modeling of halo and galaxy bias is complicated and does not necessarily
-become easier at higher redshifts. The hope is a few parameter models (e.g.
-linear and second order bias to describe halo biasing supplemented with
-Fingers-of-God dispersion term to describe the interhalo motions of galaxies)
-will be found sufficiently accurate on large scales. We plan to work on a
-project similar to Ref.~[] and test various biasing schemes on simulations.
-Following Ref.~[] we will measure the DM and halo clustering in real space and
-will use them to check how well various biasing schemes work and to what extent
-is inclusion of higher order bias and non-local bias necessary. The main goal
-of our project is to derive unbiased BAO/RSD constraints from linear scales
-which makes our job slightly easier in a sense that bias models that do not
-necessarily accurately describe the physics of halo-DM and galaxy-halo
-interaction may be good enough for us as long as they do not systematically
-bias our BAO and RSD results.
+\textbf{The modeling of halo and galaxy bias} is complicated and does not
+necessarily become easier at higher redshifts \cite{2018PhR...733....1D}. The
+hope is a few parameter models (e.g.  linear and second order bias to describe
+halo biasing \cite{1993ApJ...413..447F,2012PhRvD..85h3509C,2012PhRvD..86h3540B}
+supplemented with Fingers-of-God dispersion term to describe the interhalo
+motions of galaxies
+\cite{1972MNRAS.156P...1J,2005ApJ...630....1Z,2016MNRAS.455L..77H}) will be
+found sufficiently accurate on large scales. We plan to work on a project
+similar to Ref.~\cite{2009ApJ...691..569J} and test various biasing schemes on
+simulations.  Following Ref.~\cite{2009ApJ...691..569J} we will measure the DM
+and halo clustering in real space and will use them to check how well various
+biasing schemes work and to what extent is inclusion of higher order bias and
+non-local bias necessary. The main goal of our project is to derive unbiased
+BAO/RSD constraints from linear scales which makes our job slightly easier in a
+sense that bias models that do not necessarily accurately describe the physics
+of halo-DM and galaxy-halo interaction may be good enough for us as long as
+they do not systematically bias our BAO and RSD results.
 
 % RSD
 RSD effects do not respond well to perturbative approaches. The Most popular
 methods for modeling them belong to a family of ``streaming'' models that
 describe redshift-to-real space mapping geometrically without relying on
-linearisation. Unfortunately, one has to refer to approximate perturbative
-schemes at some point since the streaming models require knowledge of velocity
-field statistics (e.g. probability distribution of infall velocities). Even so,
-the streaming models have been demonstrated to work much better than plain
-perturbation theory and most recently have been used to model BOSS data. One
-popular model along these lines is the TNS model that has been generalised to
-bispectrum. Ref.~[] showed that the model works well up to scales of
-$k_\mathrm{max} \sim 0.2$ on low resolution simulations. We envision two
-possible projects here. One is to test this Fourier space bispectrum model at
-higher precision level demanded by future surveys and to check whether it works
-for lighter halos that will host most of DESI/Euclid/WFIRST galaxies. The
-second direction is to generalize a real-space work of Ref.~[] to higher
-orders. We will start with the simplest approximation in which the real space
-and redshift space three-point functions are related by a triple infall
-velocity distribution convolution which is multivariate Gaussian. We will be
-able to test how well this approximation works (and on what scales) by directly
+linearisation \cite{1995ApJ...448..494F,2018MNRAS.479.2256K,2016PhRvD..94l3522K,2016JCAP...12..007V,2015PhRvD..92f3004U}. Unfortunately, one has to refer to approximate
+perturbative schemes at some point since the streaming models require knowledge
+of velocity field statistics (e.g. probability distribution of infall
+velocities). Even so, the streaming models have been demonstrated to work much
+better than plain perturbation theory and most recently have been used to model
+BOSS data \cite{2012MNRAS.426.2719R}. One popular model along these lines is
+the TNS model \cite{2010PhRvD..82f3522T} that has been generalised to
+bispectrum \cite{2017PhRvD..96d3526H}. Ref.~\cite{2017PhRvD..96d3526H} showed
+that the model works well up to scales of $k_\mathrm{max} \sim 0.25$ on low
+resolution simulations. We envision two possible projects here. One is to test
+this Fourier space bispectrum model at higher precision level demanded by
+future surveys and to check whether it works for lighter halos that will host
+most of DESI/Euclid/WFIRST galaxies. The second direction is to generalize a
+real-space work of Ref.~\cite{2018MNRAS.479.2256K} to higher orders. We will
+start with the simplest approximation in which the real space and redshift
+space three-point functions are related by a triple infall velocity
+distribution convolution which is multivariate Gaussian. We will be able to
+test how well this approximation works (and on what scales) by directly
 measuring three-point infall velocity distribution in simulations and
 convolving it with a measured three-point function. We will then try
 probability distribution functions of increasing complexity and check if any of
@@ -637,10 +646,10 @@ simulations. The first type is where the input bispectrum and power spectrum of
 the mocks are not necessarily very accurate but are known to high accuracy. We
 already have a validated pipeline for creating distributions with known
 anisotropic power spectrum and bispectrum based on the ideas put forward in
-Refs.~[]. These types of simulations are non-expensive to produce. We already
-have order of 10,000 of them for our ongoing work and could easily increase the
-number if required. We will use these simulations to test our measuring
-algorithms, and effects of the mask on measurements and covariances. 
+Refs.~\cite{}. These types of simulations are non-expensive to produce. We
+already have order of 10,000 of them for our ongoing work and could easily
+increase the number if required. We will use these simulations to test our
+measuring algorithms, and effects of the mask on measurements and covariances. 
 
 Testing theoretical models will require high quality N-body simulations that
 can be used to link underlying cosmological parameters to measured bispectrum.
@@ -887,26 +896,56 @@ KSU Physics majors.
 % This is why your project is interesting and will help further
 % knowledge in the field of mathematics. 
 
+The main outcome of this project will be the methods and software pipeline for
+extracting BAO/RSD constraints from measured galaxy bispectrum. Developed
+analysis will be applied to early DESI data during the project, and to Euclid
+and WFIRST data afterwards. \textbf{This will significantly enhance the
+standard BAO/RSD analysis and will further shrink the errorbars on DE and TG
+parameters.}
+
+DE is one of the biggest masteries in modern physics and for now our only
+experimental handle on it is cosmological data. Cosmological data is
+unfortunately expansive to obtain and fundamentally finite. \textbf{Our work
+will contribute to a better understanding of DE by utilizing future
+spectroscopic galaxy survey data sets with a higher efficiency.} 
+
 \begin{wrapfigure}{r}{0.5\textwidth}
 \begin{center}
-\includegraphics[width=0.48\textwidth]{prelimMCMC.png}
+\includegraphics[width=0.48\textwidth]{MonQuad.png}
 \end{center}
 \end{wrapfigure}
 
-The main outcome of this project will be the methods of extracting BAO/RSD
-constraints from measured galaxy bispectrum. The main merit of this enterprise
-is that these constraints will help to significantly tighten constraints on DE
-and TG. DE is one of the biggest masteries in modern physics and for now our
-only experimental handle on it is cosmological data. We have argued that the
-even in the worst case scenario, in which systematics can only be controlled on
-large scale, the results would still be helpful in tightening constraints on DE
-and TG. In addition to this practical gain, the proper modeling of higher order
-statistics of galaxy field would be interesting in itself. Nonlinearities in
-gravitational evolution, bias, and RSD are difficult to model mathematically
-and solving this problem would be a formidable intellectual achievement. The
-results of the project will have practical application in other fields of
-observational cosmology, including analysis of higher order clustering of weak
-lensing, CMB and various cross-correlations.
+
+Extracting cosmology from measured bispectrum has merits on its own right
+(unrelated to its DE constraining power). Large-scale structure formation is a
+non-linear process the fundamentals of which are well understood but difficult
+to model at a per cent level precision. The capability of predicting galaxy
+bispectrum from cosmological parameters would be a very big step in this
+direction. Nonlinearities in gravitational evolution, bias, and RSD are
+difficult to model mathematically and \textbf{solving this problem would be a
+formidable intellectual achievement.}
+
+While in our proposal we concentrate on galaxy distribution, the results of the
+project will have \textbf{practical application in other fields of observational
+cosmology, including analysis of higher order clustering of weak lensing, CMB
+and various cross-correlations.}
+
+
+We have argued that it is very unlikely for the project to completely fail
+since on very large scales perturbation theory is bound to work. Even if we can
+not get the factor of three improvement in low redshift $f\sigma_8$
+measurements (which was based on optimistic $k_\mathrm{max}\sim 0.25\
+\mathrm{Mpc}/h$), even modest improvements in these parameter constraints
+translate are useful considering the cosmic variance limit. 
+
+The community has made a lot of progress in recent years in better
+understanding estimators, perturbation theory schemes and their limitations,
+and observational effects. With DESI, Euclid, and WFIRST high precision data
+just around the corner the time is now perfectly ripe for this project and we
+believe it fits well within NSF's ``high-risk high-payoff'' paradigm. Figure
+above shows a bispectrum monopole and quadrupole (from BOSS mocks). The
+``smooth'' part has been removed to accentuate the BAO feature. We would like
+to translate this signal into robust and tight DE constraints.
 
 \required{Broader Impacts}
 
