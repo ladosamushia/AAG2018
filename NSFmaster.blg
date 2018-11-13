@@ -4,46 +4,50 @@ The top-level auxiliary file: NSFmaster.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: NSFsumm.aux
 Database file #1: NSF.bib
+Repeated entry---line 2285 of file NSF.bib
+ : @article{2018MNRAS.479.4566M
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-You've used 55 entries,
+You've used 73 entries,
             1876 wiz_defined-function locations,
-            828 strings with 21523 characters,
-and the built_in function-call counts, 22474 in all, are:
-= -- 1922
-> -- 1573
+            926 strings with 24682 characters,
+and the built_in function-call counts, 26961 in all, are:
+= -- 2364
+> -- 1761
 < -- 0
-+ -- 543
-- -- 488
-* -- 1968
-:= -- 3383
-add.period$ -- 55
-call.type$ -- 55
-change.case$ -- 55
++ -- 612
+- -- 539
+* -- 2294
+:= -- 4023
+add.period$ -- 73
+call.type$ -- 73
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 950
-empty$ -- 1526
-format.name$ -- 488
-if$ -- 5248
+cite$ -- 73
+duplicate$ -- 1200
+empty$ -- 1905
+format.name$ -- 539
+if$ -- 6353
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 55
-newline$ -- 168
-num.names$ -- 55
-pop$ -- 69
+int.to.str$ -- 73
+missing$ -- 73
+newline$ -- 222
+num.names$ -- 73
+pop$ -- 106
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 928
+skip$ -- 1134
 stack$ -- 0
-substring$ -- 1511
-swap$ -- 565
+substring$ -- 1729
+swap$ -- 689
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 152
-width$ -- 57
-write$ -- 549
-(There was 1 warning)
+while$ -- 187
+width$ -- 75
+write$ -- 717
+(There was 1 error message)
