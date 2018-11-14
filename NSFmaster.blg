@@ -8,46 +8,47 @@ Repeated entry---line 2285 of file NSF.bib
  : @article{2018MNRAS.479.4566M
  :                             ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
-You've used 111 entries,
+Warning--can't use both author and editor fields in 2010deot.book..246B
+Warning--empty publisher in 2010deot.book..246B
+You've used 150 entries,
             1876 wiz_defined-function locations,
-            1142 strings with 31646 characters,
-and the built_in function-call counts, 38010 in all, are:
-= -- 3459
-> -- 2237
+            1356 strings with 47697 characters,
+and the built_in function-call counts, 55268 in all, are:
+= -- 4605
+> -- 4030
 < -- 0
-+ -- 786
-- -- 675
-* -- 3100
-:= -- 5572
-add.period$ -- 111
-call.type$ -- 111
-change.case$ -- 111
++ -- 1397
+- -- 1247
+* -- 4848
+:= -- 8488
+add.period$ -- 151
+call.type$ -- 150
+change.case$ -- 149
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 1805
-empty$ -- 2788
-format.name$ -- 675
-if$ -- 9092
+cite$ -- 152
+duplicate$ -- 2410
+empty$ -- 3752
+format.name$ -- 1247
+if$ -- 12825
 int.to.chr$ -- 0
-int.to.str$ -- 111
-missing$ -- 111
-newline$ -- 336
-num.names$ -- 111
-pop$ -- 169
+int.to.str$ -- 150
+missing$ -- 151
+newline$ -- 454
+num.names$ -- 152
+pop$ -- 244
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1686
+skip$ -- 2214
 stack$ -- 0
-substring$ -- 2343
-swap$ -- 1027
+substring$ -- 3107
+swap$ -- 1354
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 276
-width$ -- 114
-write$ -- 1092
+warning$ -- 2
+while$ -- 368
+width$ -- 153
+write$ -- 1467
 (There was 1 error message)

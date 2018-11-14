@@ -7,30 +7,35 @@
 
 \section{Introduction} % start page 1 % Galaxy Surveys are great 
 Spectroscopic galaxy surveys play an indispensable role in precision cosmology.
-The measurements of the Baryon Acoustic Oscillation (BAO) peak position at
+The measurements of the Baryon Acoustic Oscillation (BAO) peak position
+\cite{2010deot.book..246B} at
 various redshifts put tight constraints on the expansion rate and geometry of
-the Universe. The Redshift-Space Distortion (RSD) signal, which has its origins
+the Universe. The Redshift-Space Distortion (RSD) signal \cite{2007MNRAS.378.1196K,1998ASSL..231..185H}, which has its origins
 in the growth of structure over cosmic time, can constraints the growth rate as
-well as a function of redshift. These measurements have been
-pushed to a very high precision. BAO are now measured at a one per cent
-precision,  while the best RSD measurements stand at about a five per cent
-precision. The next generation of galaxy surveys, such as Dark Energy
-Spectroscopic Instrument (DESI), Euclid satellite mission, and the Wide Field
-Infrared Survey Telescope (WFIRST), will extend these measurements to higher
+well as a function of redshift. These measurements have been pushed to a very
+high precision. BAO are now measured at a one per cent precision
+\cite{2017MNRAS.470.2617A},  while the best RSD measurements stand at about a
+five per cent precision
+\cite{2017MNRAS.467.2085G,2017MNRAS.464.1640S,2017MNRAS.469.1369S,2017MNRAS.466.2242B}.
+The next generation of galaxy surveys, such as Dark Energy Spectroscopic
+Instrument (DESI) \cite{2016arXiv161100036D}, Euclid satellite mission
+\cite{2011arXiv1110.3193L}, and the Wide Field Infrared Survey Telescope
+(WFIRST) \cite{2015arXiv150303757S}, will extend these measurements to higher
 redshifts and even better precision.
 
 % Dark Energy gravity still unclear close to LCDM and GR 
 When these measurements are combined with a Cosmic Microwave Background (CMB)
 data the resulting constraints on Dark Energy (DE) and theories of gravity
-(TG) are overall consistent with the standard cosmological $\Lambda$CDM model.
-The constraints however at this point are not tight enough to conclusively rule
-out alternative models of DE and TG that are arguably better motivated from a
-fundamental physics point of view than the standard cosmological model. In
-addition, there are a number of 2 to 3 $\sigma$ discrepancies (such as e.g.
-the discrepancy with the local Hubble constant measurements, or the tension
-with the clustering amplitude measured by weak lensing surveys), but they are
-not statistically significant enough to make a conclusive case in favour of
-non-standard models.
+(TG) are overall consistent with the standard cosmological $\Lambda$CDM model
+\cite{2018arXiv180706209P}.  The constraints however at this point are not
+tight enough to conclusively rule out alternative models of DE and TG that are
+arguably better motivated from a fundamental physics point of view than the
+standard cosmological model. In addition, there are a number of 2 to 3 $\sigma$
+discrepancies (such as e.g.  the discrepancy with the local Hubble constant
+measurements \cite{2018JCAP...09..025M}, or the tension with the clustering
+amplitude measured by weak lensing surveys \cite{2018MNRAS.476.2999M}), but
+they are not statistically significant enough to make a conclusive case in
+favour of non-standard models.
  
 % There will be a cosmic variance limit for standard analysis 
 Since we have only one vintage point for observing the Universe the amount of
@@ -48,13 +53,18 @@ precise cosmological constraints in the same data.
 % We need to squeeze out more information 
 There are a number of ways to extract more information from spectroscopic
 galaxy data. We can try to enhance the standard BAO analysis by (by now
-standard) method of reconstructing the linear field or trying to come up with
-more optimal weighting schemes. Other approaches include looking at stacked
-voids, joint multi-tracer analysis, and going to smaller scales by means of
-simulation assisted modeling. All these approaches have their advantages and
-disadvantages and all of them must be tried out on real data. In this proposal
-we would like to pursue the same goal by going to the third-order statistics of
-galaxy fields.
+standard) method of reconstructing the linear field
+\cite{2007ApJ...664..675E,2009PhRvD..79f3523P,2009PhRvD..80l3501N,2012MNRAS.427.2132P}
+or trying to come up with more optimal weighting schemes
+\cite{2016MNRAS.463.2708P,2015MNRAS.451..236Z,2017MNRAS.464.2698R}. Other
+approaches include looking at stacked voids
+\cite{2013MNRAS.436.3480P,2015MNRAS.451.1036C,2015JCAP...11..036H,2016PhRvL.117i1302H,2016MNRAS.462.2465C,2017JCAP...07..014H},
+joint multi-tracer analysis
+\cite{2009PhRvL.102b1302S,2009PhRvL.103i1303S,2009JCAP...10..007M}, and going
+to smaller scales by means of simulation assisted modeling \cite{2014MNRAS.444..476R,2015ApJ...810...35K,2018arXiv180405867Z}.  All these
+approaches have their advantages and disadvantages and all of them must be
+tried out on real data. In this proposal we would like to pursue the same goal
+by going to the third-order statistics of galaxy fields.
 
 % what we propose, what we ask for 
 The main objective of this proposal is to develop methods for
@@ -646,17 +656,22 @@ simulations. The first type is where the input bispectrum and power spectrum of
 the mocks are not necessarily very accurate but are known to high accuracy. We
 already have a validated pipeline for creating distributions with known
 anisotropic power spectrum and bispectrum based on the ideas put forward in
-Refs.~\cite{}. These types of simulations are non-expensive to produce. We
-already have order of 10,000 of them for our ongoing work and could easily
-increase the number if required. We will use these simulations to test our
-measuring algorithms, and effects of the mask on measurements and covariances. 
+Refs.~\cite{2012PhRvD..85h3002S,2012PhRvD..86l3524R,2010JCAP...10..022W}. These
+types of simulations are non-expensive to produce. We already have order of
+10,000 of them for our ongoing work and could easily increase the number if
+required. We will use these simulations to test our measuring algorithms, and
+effects of the mask on measurements and covariances. 
 
 Testing theoretical models will require high quality N-body simulations that
 can be used to link underlying cosmological parameters to measured bispectrum.
 There are number of publicly available N-body simulations that are suitable for
-this task \cite{}. They span a wide range of cosmological parameters, mass
-resolutions, and total volume and are ideal for testing the robustness of
-theoretical models.  
+this task
+\cite{2017arXiv171101453K,2005Natur.435..629S,2013AN....334..691R,2016MNRAS.457.4340K,2015JKAS...48..213K,2011JKAS...44..217K,2014arXiv1407.2600S}.
+They span a wide range of cosmological parameters, mass resolutions, and total
+volume and are ideal for testing the robustness of theoretical models. When
+applying our methods to DESI data, we will also be able to perform further
+tests on N-body simulations created specifically for DESI collaboration, to
+which PI as a collaboration member has an access.
 
 \subsection*{Application to real data}
 
@@ -772,22 +787,22 @@ power of our measurements, it is very unlikely that they will prevent us from
 getting results.
 
 % Measurements
-Measuring higher order statistics involves computationally difficult algorithms
-and requires significantly higher CPU budget than standard two-point
-measurements.  In fact, if this proposal were written ten years ago, risk
-factors associated with measuring bispectrum from a large number of mocks would
-have been one of the major risk factors. Fortunately, algorithmic developments
-in last few years combined with advances in computing hardware make this risk
-almost non-existent. Our KSU group has a number of alternative pipelines for
-efficiently measuring bispectrum from a combination of FFTs. Our GPU and CPU
-codes have been thoroughly tested on controlled simulations and cross-compared
-with previously published results. The pipeline has been optimized for
-available hardware and we can compute bispectrum of all linear ($k_\mathrm{max}
-= 0.2$ Mpc) triangle monopoles and quadrupoles from order of few thousand mocks
-in order of tens of hours on a single GPU equipped workstation. Computing
-theoretical bispectrum values will be computationally expensive but is unlikely
-to be prohibitive. Likelihood analysis of bispectrum is not going to be more
-computationally expensive than the power spectrum.
+%Measuring higher order statistics involves computationally difficult algorithms
+%and requires significantly higher CPU budget than standard two-point
+%measurements.  In fact, if this proposal were written ten years ago, risk
+%factors associated with measuring bispectrum from a large number of mocks would
+%have been one of the major risk factors. Fortunately, algorithmic developments
+%in last few years combined with advances in computing hardware make this risk
+%almost non-existent. Our KSU group has a number of alternative pipelines for
+%efficiently measuring bispectrum from a combination of FFTs. Our GPU and CPU
+%codes have been thoroughly tested on controlled simulations and cross-compared
+%with previously published results. The pipeline has been optimized for
+%available hardware and we can compute bispectrum of all linear ($k_\mathrm{max}
+%= 0.2$ Mpc) triangle monopoles and quadrupoles from order of few thousand mocks
+%in order of tens of hours on a single GPU equipped workstation. Computing
+%theoretical bispectrum values will be computationally expensive but is unlikely
+%to be prohibitive. Likelihood analysis of bispectrum is not going to be more
+%computationally expensive than the power spectrum.
 
 % Covariances
 Accurate estimation of covariance matrices is another potential difficulty that

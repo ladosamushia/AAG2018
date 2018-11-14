@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.1)  13 NOV 2018 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.1)  14 NOV 2018 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,18 +168,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./NSFmaster.aux (./NSFsumm.aux))
 \openout1 = `NSFmaster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -276,11 +276,11 @@ e
 
 
 (./NSFsumm.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -291,22 +291,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <fz.pdf, id=21, 397.485pt x 361.35pt>
 File: fz.pdf Graphic file (type pdf)
  <use fz.pdf>
-Package pdftex.def Info: fz.pdf used on input line 242.
+Package pdftex.def Info: fz.pdf used on input line 252.
 (pdftex.def)             Requested size: 225.4804pt x 204.98468pt.
  [4 <./fz.pdf>] [5] [6]
 <prelimMCMC.png, id=58, 462.528pt x 346.896pt>
 File: prelimMCMC.png Graphic file (type png)
  <use prelimMCMC.png>
-Package pdftex.def Info: prelimMCMC.png used on input line 406.
+Package pdftex.def Info: prelimMCMC.png used on input line 416.
 (pdftex.def)             Requested size: 225.4804pt x 169.11243pt.
 
-Overfull \hbox (18.4027pt too wide) in paragraph at lines 422--430
+Overfull \hbox (18.4027pt too wide) in paragraph at lines 432--440
 \OT1/cmr/m/n/10.95 based on a sig-nif-i-cantly smaller data sets and the meth-o
 ds are not ex-tend-able to DESI/Euclid/WFIRST.
  []
 
 [7 <./prelimMCMC.png>] [8] [9] [10] [11] [12] [13]
-Overfull \hbox (1.856pt too wide) in paragraph at lines 899--905
+Overfull \hbox (1.856pt too wide) in paragraph at lines 914--920
 \OT1/cmr/m/n/10.95 The main out-come of this project will be the meth-ods and s
 oft-ware pipeline for ex-tract-ing BAO/RSD
  []
@@ -314,37 +314,37 @@ oft-ware pipeline for ex-tract-ing BAO/RSD
 <MonQuad.png, id=84, 462.528pt x 346.896pt>
 File: MonQuad.png Graphic file (type png)
  <use MonQuad.png>
-Package pdftex.def Info: MonQuad.png used on input line 914.
+Package pdftex.def Info: MonQuad.png used on input line 929.
 (pdftex.def)             Requested size: 225.4804pt x 169.11243pt.
  [14 <./MonQuad.png>] [15]) [16] (./NSFmaster.bbl [1
 
-] [2] [3] [4] [5] [6] [7] [8]) [9]
-(./NSFmaster.aux (./NSFsumm.aux)) ) 
+] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+[11] [12]) [13] (./NSFmaster.aux (./NSFsumm.aux)) ) 
 Here is how much of TeX's memory you used:
- 3628 strings out of 493029
- 52387 string characters out of 6136234
- 119572 words of memory out of 5000000
- 7109 multiletter control sequences out of 15000+600000
+ 3749 strings out of 493029
+ 55573 string characters out of 6136234
+ 121243 words of memory out of 5000000
+ 7230 multiletter control sequences out of 15000+600000
  10152 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,32p,311b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb>
-Output written on NSFmaster.pdf (25 pages, 394645 bytes).
+ 37i,5n,32p,311b,749s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on NSFmaster.pdf (29 pages, 408157 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
