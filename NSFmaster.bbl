@@ -84,13 +84,113 @@ F.~{Beutler}, H.-J. {Seo}, S.~{Saito}, C.-H. {Chuang}, A.~J. {Cuesta}, D.~J.
 \bibitem{2016arXiv161100036D}
 {DESI Collaboration}, A.~{Aghamousa}, J.~{Aguilar}, S.~{Ahlen}, S.~{Alam},
   L.~E. {Allen}, C.~{Allende Prieto}, J.~{Annis}, S.~{Bailey}, C.~{Balland},
-  and et~al., ``{The DESI Experiment Part I: Science,Targeting, and Survey
+  O.~{Ballester}, C.~{Baltay}, L.~{Beaufore}, C.~{Bebek}, T.~C. {Beers}, E.~F.
+  {Bell}, J.~L. {Bernal}, R.~{Besuner}, F.~{Beutler}, C.~{Blake}, H.~{Bleuler},
+  M.~{Blomqvist}, R.~{Blum}, A.~S. {Bolton}, C.~{Briceno}, D.~{Brooks}, J.~R.
+  {Brownstein}, E.~{Buckley-Geer}, A.~{Burden}, E.~{Burtin}, N.~G. {Busca},
+  R.~N. {Cahn}, Y.-C. {Cai}, L.~{Cardiel-Sas}, R.~G. {Carlberg}, P.-H.
+  {Carton}, R.~{Casas}, F.~J. {Castander}, J.~L. {Cervantes-Cota}, T.~M.
+  {Claybaugh}, M.~{Close}, C.~T. {Coker}, S.~{Cole}, J.~{Comparat}, A.~P.
+  {Cooper}, M.-C. {Cousinou}, M.~{Crocce}, J.-G. {Cuby}, D.~P. {Cunningham},
+  T.~M. {Davis}, K.~S. {Dawson}, A.~{de la Macorra}, J.~{De Vicente},
+  T.~{Delubac}, M.~{Derwent}, A.~{Dey}, G.~{Dhungana}, Z.~{Ding}, P.~{Doel},
+  Y.~T. {Duan}, A.~{Ealet}, J.~{Edelstein}, S.~{Eftekharzadeh}, D.~J.
+  {Eisenstein}, A.~{Elliott}, S.~{Escoffier}, M.~{Evatt}, P.~{Fagrelius},
+  X.~{Fan}, K.~{Fanning}, A.~{Farahi}, J.~{Farihi}, G.~{Favole}, Y.~{Feng},
+  E.~{Fernandez}, J.~R. {Findlay}, D.~P. {Finkbeiner}, M.~J. {Fitzpatrick},
+  B.~{Flaugher}, S.~{Flender}, A.~{Font-Ribera}, J.~E. {Forero-Romero},
+  P.~{Fosalba}, C.~S. {Frenk}, M.~{Fumagalli}, B.~T. {Gaensicke}, G.~{Gallo},
+  J.~{Garcia-Bellido}, E.~{Gaztanaga}, N.~{Pietro Gentile Fusillo},
+  T.~{Gerard}, I.~{Gershkovich}, T.~{Giannantonio}, D.~{Gillet},
+  G.~{Gonzalez-de-Rivera}, V.~{Gonzalez-Perez}, S.~{Gott}, O.~{Graur},
+  G.~{Gutierrez}, J.~{Guy}, S.~{Habib}, H.~{Heetderks}, I.~{Heetderks},
+  K.~{Heitmann}, W.~A. {Hellwing}, D.~A. {Herrera}, S.~{Ho}, S.~{Holland},
+  K.~{Honscheid}, E.~{Huff}, T.~A. {Hutchinson}, D.~{Huterer}, H.~S. {Hwang},
+  J.~M. {Illa Laguna}, Y.~{Ishikawa}, D.~{Jacobs}, N.~{Jeffrey}, P.~{Jelinsky},
+  E.~{Jennings}, L.~{Jiang}, J.~{Jimenez}, J.~{Johnson}, R.~{Joyce},
+  E.~{Jullo}, S.~{Juneau}, S.~{Kama}, A.~{Karcher}, S.~{Karkar}, R.~{Kehoe},
+  N.~{Kennamer}, S.~{Kent}, M.~{Kilbinger}, A.~G. {Kim}, D.~{Kirkby},
+  T.~{Kisner}, E.~{Kitanidis}, J.-P. {Kneib}, S.~{Koposov}, E.~{Kovacs},
+  K.~{Koyama}, A.~{Kremin}, R.~{Kron}, L.~{Kronig}, A.~{Kueter-Young}, C.~G.
+  {Lacey}, R.~{Lafever}, O.~{Lahav}, A.~{Lambert}, M.~{Lampton}, M.~{Landriau},
+  D.~{Lang}, T.~R. {Lauer}, J.-M. {Le Goff}, L.~{Le Guillou}, A.~{Le Van Suu},
+  J.~H. {Lee}, S.-J. {Lee}, D.~{Leitner}, M.~{Lesser}, M.~E. {Levi},
+  B.~{L'Huillier}, B.~{Li}, M.~{Liang}, H.~{Lin}, E.~{Linder}, S.~R. {Loebman},
+  Z.~{Luki{\'c}}, J.~{Ma}, N.~{MacCrann}, C.~{Magneville}, L.~{Makarem},
+  M.~{Manera}, C.~J. {Manser}, R.~{Marshall}, P.~{Martini}, R.~{Massey},
+  T.~{Matheson}, J.~{McCauley}, P.~{McDonald}, I.~D. {McGreer}, A.~{Meisner},
+  N.~{Metcalfe}, T.~N. {Miller}, R.~{Miquel}, J.~{Moustakas}, A.~{Myers},
+  M.~{Naik}, J.~A. {Newman}, R.~C. {Nichol}, A.~{Nicola}, L.~{Nicolati da
+  Costa}, J.~{Nie}, G.~{Niz}, P.~{Norberg}, B.~{Nord}, D.~{Norman},
+  P.~{Nugent}, T.~{O'Brien}, M.~{Oh}, K.~A.~G. {Olsen}, C.~{Padilla},
+  H.~{Padmanabhan}, N.~{Padmanabhan}, N.~{Palanque-Delabrouille}, A.~{Palmese},
+  D.~{Pappalardo}, I.~{P{\^a}ris}, C.~{Park}, A.~{Patej}, J.~A. {Peacock},
+  H.~V. {Peiris}, X.~{Peng}, W.~J. {Percival}, S.~{Perruchot}, M.~M. {Pieri},
+  R.~{Pogge}, J.~E. {Pollack}, C.~{Poppett}, F.~{Prada}, A.~{Prakash}, R.~G.
+  {Probst}, D.~{Rabinowitz}, A.~{Raichoor}, C.~H. {Ree}, A.~{Refregier},
+  X.~{Regal}, B.~{Reid}, K.~{Reil}, M.~{Rezaie}, C.~M. {Rockosi}, N.~{Roe},
+  S.~{Ronayette}, A.~{Roodman}, A.~J. {Ross}, N.~P. {Ross}, G.~{Rossi},
+  E.~{Rozo}, V.~{Ruhlmann-Kleider}, E.~S. {Rykoff}, C.~{Sabiu}, L.~{Samushia},
+  E.~{Sanchez}, J.~{Sanchez}, D.~J. {Schlegel}, M.~{Schneider}, M.~{Schubnell},
+  A.~{Secroun}, U.~{Seljak}, H.-J. {Seo}, S.~{Serrano}, A.~{Shafieloo},
+  H.~{Shan}, R.~{Sharples}, M.~J. {Sholl}, W.~V. {Shourt}, J.~H. {Silber},
+  D.~R. {Silva}, M.~M. {Sirk}, A.~{Slosar}, A.~{Smith}, G.~F. {Smoot},
+  D.~{Som}, Y.-S. {Song}, D.~{Sprayberry}, R.~{Staten}, A.~{Stefanik},
+  G.~{Tarle}, S.~{Sien Tie}, J.~L. {Tinker}, R.~{Tojeiro}, F.~{Valdes},
+  O.~{Valenzuela}, M.~{Valluri}, M.~{Vargas-Magana}, L.~{Verde}, A.~R.
+  {Walker}, J.~{Wang}, Y.~{Wang}, B.~A. {Weaver}, C.~{Weaverdyck}, R.~H.
+  {Wechsler}, D.~H. {Weinberg}, M.~{White}, Q.~{Yang}, C.~{Yeche}, T.~{Zhang},
+  G.-B. {Zhao}, Y.~{Zheng}, X.~{Zhou}, Z.~{Zhou}, Y.~{Zhu}, H.~{Zou}, and
+  Y.~{Zu}, ``{The DESI Experiment Part I: Science,Targeting, and Survey
   Design},'' {\em ArXiv e-prints}, Oct. 2016.
 
 \bibitem{2011arXiv1110.3193L}
 R.~{Laureijs}, J.~{Amiaux}, S.~{Arduini}, J.~. {Augu{\`e}res}, J.~{Brinchmann},
-  R.~{Cole}, M.~{Cropper}, C.~{Dabin}, L.~{Duvet}, A.~{Ealet}, and et~al.,
-  ``{Euclid Definition Study Report},'' {\em ArXiv e-prints}, Oct. 2011.
+  R.~{Cole}, M.~{Cropper}, C.~{Dabin}, L.~{Duvet}, A.~{Ealet}, B.~{Garilli},
+  P.~{Gondoin}, L.~{Guzzo}, J.~{Hoar}, H.~{Hoekstra}, R.~{Holmes},
+  T.~{Kitching}, T.~{Maciaszek}, Y.~{Mellier}, F.~{Pasian}, W.~{Percival},
+  J.~{Rhodes}, G.~{Saavedra Criado}, M.~{Sauvage}, R.~{Scaramella},
+  L.~{Valenziano}, S.~{Warren}, R.~{Bender}, F.~{Castander}, A.~{Cimatti},
+  O.~{Le F{\`e}vre}, H.~{Kurki-Suonio}, M.~{Levi}, P.~{Lilje}, G.~{Meylan},
+  R.~{Nichol}, K.~{Pedersen}, V.~{Popa}, R.~{Rebolo Lopez}, H.~. {Rix},
+  H.~{Rottgering}, W.~{Zeilinger}, F.~{Grupp}, P.~{Hudelot}, R.~{Massey},
+  M.~{Meneghetti}, L.~{Miller}, S.~{Paltani}, S.~{Paulin-Henriksson},
+  S.~{Pires}, C.~{Saxton}, T.~{Schrabback}, G.~{Seidel}, J.~{Walsh},
+  N.~{Aghanim}, L.~{Amendola}, J.~{Bartlett}, C.~{Baccigalupi}, J.~.
+  {Beaulieu}, K.~{Benabed}, J.~. {Cuby}, D.~{Elbaz}, P.~{Fosalba},
+  G.~{Gavazzi}, A.~{Helmi}, I.~{Hook}, M.~{Irwin}, J.~. {Kneib}, M.~{Kunz},
+  F.~{Mannucci}, L.~{Moscardini}, C.~{Tao}, R.~{Teyssier}, J.~{Weller},
+  G.~{Zamorani}, M.~R. {Zapatero Osorio}, O.~{Boulade}, J.~J. {Foumond}, A.~{Di
+  Giorgio}, P.~{Guttridge}, A.~{James}, M.~{Kemp}, J.~{Martignac},
+  A.~{Spencer}, D.~{Walton}, T.~{Bl{\"u}mchen}, C.~{Bonoli}, F.~{Bortoletto},
+  C.~{Cerna}, L.~{Corcione}, C.~{Fabron}, K.~{Jahnke}, S.~{Ligori},
+  F.~{Madrid}, L.~{Martin}, G.~{Morgante}, T.~{Pamplona}, E.~{Prieto},
+  M.~{Riva}, R.~{Toledo}, M.~{Trifoglio}, F.~{Zerbi}, F.~{Abdalla},
+  M.~{Douspis}, C.~{Grenet}, S.~{Borgani}, R.~{Bouwens}, F.~{Courbin}, J.~.
+  {Delouis}, P.~{Dubath}, A.~{Fontana}, M.~{Frailis}, A.~{Grazian},
+  J.~{Koppenh{\"o}fer}, O.~{Mansutti}, M.~{Melchior}, M.~{Mignoli}, J.~{Mohr},
+  C.~{Neissner}, K.~{Noddle}, M.~{Poncet}, M.~{Scodeggio}, S.~{Serrano},
+  N.~{Shane}, J.~. {Starck}, C.~{Surace}, A.~{Taylor}, G.~{Verdoes-Kleijn},
+  C.~{Vuerli}, O.~R. {Williams}, A.~{Zacchei}, B.~{Altieri}, I.~{Escudero
+  Sanz}, R.~{Kohley}, T.~{Oosterbroek}, P.~{Astier}, D.~{Bacon}, S.~{Bardelli},
+  C.~{Baugh}, F.~{Bellagamba}, C.~{Benoist}, D.~{Bianchi}, A.~{Biviano},
+  E.~{Branchini}, C.~{Carbone}, V.~{Cardone}, D.~{Clements}, S.~{Colombi},
+  C.~{Conselice}, G.~{Cresci}, N.~{Deacon}, J.~{Dunlop}, C.~{Fedeli},
+  F.~{Fontanot}, P.~{Franzetti}, C.~{Giocoli}, J.~{Garcia-Bellido}, J.~{Gow},
+  A.~{Heavens}, P.~{Hewett}, C.~{Heymans}, A.~{Holland}, Z.~{Huang},
+  O.~{Ilbert}, B.~{Joachimi}, E.~{Jennins}, E.~{Kerins}, A.~{Kiessling},
+  D.~{Kirk}, R.~{Kotak}, O.~{Krause}, O.~{Lahav}, F.~{van Leeuwen},
+  J.~{Lesgourgues}, M.~{Lombardi}, M.~{Magliocchetti}, K.~{Maguire},
+  E.~{Majerotto}, R.~{Maoli}, F.~{Marulli}, S.~{Maurogordato}, H.~{McCracken},
+  R.~{McLure}, A.~{Melchiorri}, A.~{Merson}, M.~{Moresco}, M.~{Nonino},
+  P.~{Norberg}, J.~{Peacock}, R.~{Pello}, M.~{Penny}, V.~{Pettorino}, C.~{Di
+  Porto}, L.~{Pozzetti}, C.~{Quercellini}, M.~{Radovich}, A.~{Rassat},
+  N.~{Roche}, S.~{Ronayette}, E.~{Rossetti}, B.~{Sartoris}, P.~{Schneider},
+  E.~{Semboloni}, S.~{Serjeant}, F.~{Simpson}, C.~{Skordis}, G.~{Smadja},
+  S.~{Smartt}, P.~{Spano}, S.~{Spiro}, M.~{Sullivan}, A.~{Tilquin},
+  R.~{Trotta}, L.~{Verde}, Y.~{Wang}, G.~{Williger}, G.~{Zhao}, J.~{Zoubian},
+  and E.~{Zucca}, ``{Euclid Definition Study Report},'' {\em ArXiv e-prints},
+  Oct. 2011.
 
 \bibitem{2015arXiv150303757S}
 D.~{Spergel}, N.~{Gehrels}, C.~{Baltay}, D.~{Bennett}, J.~{Breckinridge},
@@ -149,6 +249,10 @@ D.~{Spergel}, N.~{Gehrels}, C.~{Baltay}, D.~{Bennett}, J.~{Breckinridge},
   M.~{White}, S.~D.~M. {White}, A.~{Zacchei}, and A.~{Zonca}, ``{Planck 2018
   results. VI. Cosmological parameters},'' {\em ArXiv e-prints}, July 2018.
 
+\bibitem{2003RvMP...75..559P}
+P.~J. {Peebles} and B.~{Ratra}, ``{The cosmological constant and dark
+  energy},'' {\em Reviews of Modern Physics}, vol.~75, pp.~559--606, Apr. 2003.
+
 \bibitem{2018JCAP...09..025M}
 E.~{M{\"o}rtsell} and S.~{Dhawan}, ``{Does the Hubble constant tension call for
   new physics?},'' {\em \jcap}, vol.~9, p.~025, Sept. 2018.
@@ -158,6 +262,11 @@ I.~G. {McCarthy}, S.~{Bird}, J.~{Schaye}, J.~{Harnois-Deraps}, A.~S. {Font},
   and L.~{van Waerbeke}, ``{The BAHAMAS project: the CMB-large-scale structure
   tension and the roles of massive neutrinos and galaxy formation},'' {\em
   \mnras}, vol.~476, pp.~2999--3030, May 2018.
+
+\bibitem{2014JCAP...05..023F}
+A.~{Font-Ribera}, P.~{McDonald}, N.~{Mostek}, B.~A. {Reid}, H.-J. {Seo}, and
+  A.~{Slosar}, ``{DESI and other Dark Energy experiments in the era of neutrino
+  mass measurements},'' {\em \jcap}, vol.~5, p.~023, May 2014.
 
 \bibitem{2007ApJ...664..675E}
 D.~J. {Eisenstein}, H.-J. {Seo}, E.~{Sirko}, and D.~N. {Spergel}, ``{Improving
@@ -258,6 +367,345 @@ Z.~{Zhai}, J.~L. {Tinker}, M.~R. {Becker}, J.~{DeRose}, Y.-Y. {Mao},
   Aemulus Project III: Emulation of the Galaxy Correlation Function},'' {\em
   ArXiv e-prints}, Apr. 2018.
 
+\bibitem{2008cosm.book.....W}
+S.~{Weinberg}, {\em {Cosmology}}.
+\newblock Oxford University Press, 2008.
+
+\bibitem{1980lssu.book.....P}
+P.~J.~E. {Peebles}, {\em {The large-scale structure of the universe}}.
+\newblock 1980.
+
+\bibitem{2009arXiv0907.5424B}
+D.~{Baumann}, ``{TASI Lectures on Inflation},'' {\em ArXiv e-prints}, July
+  2009.
+
+\bibitem{2003hep.ph....4257T}
+S.~{Tsujikawa}, ``{Introductory review of cosmic inflation},'' {\em ArXiv High
+  Energy Physics - Phenomenology e-prints}, Apr. 2003.
+
+\bibitem{2002PhR...367....1B}
+F.~{Bernardeau}, S.~{Colombi}, E.~{Gazta{\~n}aga}, and R.~{Scoccimarro},
+  ``{Large-scale structure of the Universe and cosmological perturbation
+  theory},'' {\em \physrep}, vol.~367, pp.~1--248, Sept. 2002.
+
+\bibitem{2012PhRvD..86h3540B}
+T.~{Baldauf}, U.~{Seljak}, V.~{Desjacques}, and P.~{McDonald}, ``{Evidence for
+  quadratic tidal tensor bias from the halo bispectrum},'' {\em \prd}, vol.~86,
+  p.~083540, Oct. 2012.
+
+\bibitem{2011JCAP...10..031B}
+T.~{Baldauf}, U.~{Seljak}, L.~{Senatore}, and M.~{Zaldarriaga}, ``{Galaxy bias
+  and non-linear structure formation in general relativity},'' {\em \jcap},
+  vol.~10, p.~031, Oct. 2011.
+
+\bibitem{2014PhRvD..90l3522S}
+S.~{Saito}, T.~{Baldauf}, Z.~{Vlah}, U.~{Seljak}, T.~{Okumura}, and
+  P.~{McDonald}, ``{Understanding higher-order nonlocal halo bias at large
+  scales by combining the power spectrum with the bispectrum},'' {\em \prd},
+  vol.~90, p.~123522, Dec. 2014.
+
+\bibitem{2016A&A...594A..17P}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud}, F.~{Arroja},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday},
+  R.~B. {Barreiro}, N.~{Bartolo}, S.~{Basak}, E.~{Battaner}, K.~{Benabed},
+  A.~{Beno{\^i}t}, A.~{Benoit-L{\'e}vy}, J.-P. {Bernard}, M.~{Bersanelli},
+  P.~{Bielewicz}, J.~J. {Bock}, A.~{Bonaldi}, L.~{Bonavera}, J.~R. {Bond},
+  J.~{Borrill}, F.~R. {Bouchet}, F.~{Boulanger}, M.~{Bucher}, C.~{Burigana},
+  R.~C. {Butler}, E.~{Calabrese}, J.-F. {Cardoso}, A.~{Catalano},
+  A.~{Challinor}, A.~{Chamballu}, H.~C. {Chiang}, P.~R. {Christensen},
+  S.~{Church}, D.~L. {Clements}, S.~{Colombi}, L.~P.~L. {Colombo}, C.~{Combet},
+  F.~{Couchot}, A.~{Coulais}, B.~P. {Crill}, A.~{Curto}, F.~{Cuttaia},
+  L.~{Danese}, R.~D. {Davies}, R.~J. {Davis}, P.~{de Bernardis}, A.~{de Rosa},
+  G.~{de Zotti}, J.~{Delabrouille}, F.-X. {D{\'e}sert}, J.~M. {Diego},
+  H.~{Dole}, S.~{Donzelli}, O.~{Dor{\'e}}, M.~{Douspis}, A.~{Ducout},
+  X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A. {En{\ss}lin}, H.~K.
+  {Eriksen}, J.~{Fergusson}, F.~{Finelli}, O.~{Forni}, M.~{Frailis}, A.~A.
+  {Fraisse}, E.~{Franceschi}, A.~{Frejsel}, S.~{Galeotta}, S.~{Galli},
+  K.~{Ganga}, C.~{Gauthier}, T.~{Ghosh}, M.~{Giard}, Y.~{Giraud-H{\'e}raud},
+  E.~{Gjerl{\o}w}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski}, S.~{Gratton},
+  A.~{Gregorio}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann}, F.~K.
+  {Hansen}, D.~{Hanson}, D.~L. {Harrison}, A.~{Heavens}, G.~{Helou},
+  S.~{Henrot-Versill{\'e}}, C.~{Hern{\'a}ndez-Monteagudo}, D.~{Herranz}, S.~R.
+  {Hildebrandt}, E.~{Hivon}, M.~{Hobson}, W.~A. {Holmes}, A.~{Hornstrup},
+  W.~{Hovest}, Z.~{Huang}, K.~M. {Huffenberger}, G.~{Hurier}, A.~H. {Jaffe},
+  T.~R. {Jaffe}, W.~C. {Jones}, M.~{Juvela}, E.~{Keih{\"a}nen}, R.~{Keskitalo},
+  J.~{Kim}, T.~S. {Kisner}, J.~{Knoche}, M.~{Kunz}, H.~{Kurki-Suonio},
+  F.~{Lacasa}, G.~{Lagache}, A.~{L{\"a}hteenm{\"a}ki}, J.-M. {Lamarre},
+  A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence}, R.~{Leonardi},
+  J.~{Lesgourgues}, F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje},
+  M.~{Linden-V{\o}rnle}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, D.~{Marinucci}, M.~{Maris}, P.~G. {Martin},
+  E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Masi}, S.~{Matarrese}, P.~{McGehee},
+  P.~R. {Meinhold}, A.~{Melchiorri}, L.~{Mendes}, A.~{Mennella},
+  M.~{Migliaccio}, S.~{Mitra}, M.-A. {Miville-Desch{\^e}nes}, A.~{Moneti},
+  L.~{Montier}, G.~{Morgante}, D.~{Mortlock}, A.~{Moss}, M.~{M{\"u}nchmeyer},
+  D.~{Munshi}, J.~A. {Murphy}, P.~{Naselsky}, F.~{Nati}, P.~{Natoli}, C.~B.
+  {Netterfield}, H.~U. {N{\o}rgaard-Nielsen}, F.~{Noviello}, D.~{Novikov},
+  I.~{Novikov}, C.~A. {Oxborrow}, F.~{Paci}, L.~{Pagano}, F.~{Pajot},
+  D.~{Paoletti}, F.~{Pasian}, G.~{Patanchon}, H.~V. {Peiris}, O.~{Perdereau},
+  L.~{Perotto}, F.~{Perrotta}, V.~{Pettorino}, F.~{Piacentini}, M.~{Piat},
+  E.~{Pierpaoli}, D.~{Pietrobon}, S.~{Plaszczynski}, E.~{Pointecouteau},
+  G.~{Polenta}, L.~{Popa}, G.~W. {Pratt}, G.~{Pr{\'e}zeau}, S.~{Prunet}, J.-L.
+  {Puget}, J.~P. {Rachen}, B.~{Racine}, R.~{Rebolo}, M.~{Reinecke},
+  M.~{Remazeilles}, C.~{Renault}, A.~{Renzi}, I.~{Ristorcelli}, G.~{Rocha},
+  C.~{Rosset}, M.~{Rossetti}, G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n},
+  B.~{Rusholme}, M.~{Sandri}, D.~{Santos}, M.~{Savelainen}, G.~{Savini},
+  D.~{Scott}, M.~D. {Seiffert}, E.~P.~S. {Shellard}, M.~{Shiraishi},
+  K.~{Smith}, L.~D. {Spencer}, V.~{Stolyarov}, R.~{Stompor}, R.~{Sudiwala},
+  R.~{Sunyaev}, P.~{Sutter}, D.~{Sutton}, A.-S. {Suur-Uski}, J.-F. {Sygnet},
+  J.~A. {Tauber}, L.~{Terenzi}, L.~{Toffolatti}, M.~{Tomasi}, M.~{Tristram},
+  A.~{Troja}, M.~{Tucci}, J.~{Tuovinen}, L.~{Valenziano}, J.~{Valiviita},
+  B.~{Van Tent}, P.~{Vielva}, F.~{Villa}, L.~A. {Wade}, B.~D. {Wandelt}, I.~K.
+  {Wehus}, D.~{Yvon}, A.~{Zacchei}, and A.~{Zonca}, ``{Planck 2015 results.
+  XVII. Constraints on primordial non-Gaussianity},'' {\em \aap}, vol.~594,
+  p.~A17, Sept. 2016.
+
+\bibitem{2014A&A...571A..24P}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, C.~{Armitage-Caplan},
+  M.~{Arnaud}, M.~{Ashdown}, F.~{Atrio-Barandela}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, R.~B. {Barreiro}, J.~G. {Bartlett},
+  N.~{Bartolo}, E.~{Battaner}, K.~{Benabed}, A.~{Beno{\^i}t},
+  A.~{Benoit-L{\'e}vy}, J.-P. {Bernard}, M.~{Bersanelli}, P.~{Bielewicz},
+  J.~{Bobin}, J.~J. {Bock}, A.~{Bonaldi}, L.~{Bonavera}, J.~R. {Bond},
+  J.~{Borrill}, F.~R. {Bouchet}, M.~{Bridges}, M.~{Bucher}, C.~{Burigana},
+  R.~C. {Butler}, J.-F. {Cardoso}, A.~{Catalano}, A.~{Challinor},
+  A.~{Chamballu}, H.~C. {Chiang}, L.-Y. {Chiang}, P.~R. {Christensen},
+  S.~{Church}, D.~L. {Clements}, S.~{Colombi}, L.~P.~L. {Colombo},
+  F.~{Couchot}, A.~{Coulais}, B.~P. {Crill}, A.~{Curto}, F.~{Cuttaia},
+  L.~{Danese}, R.~D. {Davies}, R.~J. {Davis}, P.~{de Bernardis}, A.~{de Rosa},
+  G.~{de Zotti}, J.~{Delabrouille}, J.-M. {Delouis}, F.-X. {D{\'e}sert}, J.~M.
+  {Diego}, H.~{Dole}, S.~{Donzelli}, O.~{Dor{\'e}}, M.~{Douspis}, A.~{Ducout},
+  J.~{Dunkley}, X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A. {En{\ss}lin},
+  H.~K. {Eriksen}, J.~{Fergusson}, F.~{Finelli}, O.~{Forni}, M.~{Frailis},
+  E.~{Franceschi}, S.~{Galeotta}, K.~{Ganga}, M.~{Giard},
+  Y.~{Giraud-H{\'e}raud}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski},
+  S.~{Gratton}, A.~{Gregorio}, A.~{Gruppuso}, F.~K. {Hansen}, D.~{Hanson},
+  D.~{Harrison}, A.~{Heavens}, S.~{Henrot-Versill{\'e}},
+  C.~{Hern{\'a}ndez-Monteagudo}, D.~{Herranz}, S.~R. {Hildebrandt}, E.~{Hivon},
+  M.~{Hobson}, W.~A. {Holmes}, A.~{Hornstrup}, W.~{Hovest}, K.~M.
+  {Huffenberger}, A.~H. {Jaffe}, T.~R. {Jaffe}, W.~C. {Jones}, M.~{Juvela},
+  E.~{Keih{\"a}nen}, R.~{Keskitalo}, T.~S. {Kisner}, J.~{Knoche}, L.~{Knox},
+  M.~{Kunz}, H.~{Kurki-Suonio}, F.~{Lacasa}, G.~{Lagache},
+  A.~{L{\"a}hteenm{\"a}ki}, J.-M. {Lamarre}, A.~{Lasenby}, R.~J. {Laureijs},
+  C.~R. {Lawrence}, J.~P. {Leahy}, R.~{Leonardi}, J.~{Lesgourgues}, A.~{Lewis},
+  M.~{Liguori}, P.~B. {Lilje}, M.~{Linden-V{\o}rnle}, M.~{L{\'o}pez-Caniego},
+  P.~M. {Lubin}, J.~F. {Mac{\'{\i}}as-P{\'e}rez}, B.~{Maffei}, D.~{Maino},
+  N.~{Mandolesi}, A.~{Mangilli}, D.~{Marinucci}, M.~{Maris}, D.~J. {Marshall},
+  P.~G. {Martin}, E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Masi}, M.~{Massardi},
+  S.~{Matarrese}, F.~{Matthai}, P.~{Mazzotta}, P.~R. {Meinhold},
+  A.~{Melchiorri}, L.~{Mendes}, A.~{Mennella}, M.~{Migliaccio}, S.~{Mitra},
+  M.-A. {Miville-Desch{\^e}nes}, A.~{Moneti}, L.~{Montier}, G.~{Morgante},
+  D.~{Mortlock}, A.~{Moss}, D.~{Munshi}, J.~A. {Murphy}, P.~{Naselsky},
+  P.~{Natoli}, C.~B. {Netterfield}, H.~U. {N{\o}rgaard-Nielsen}, F.~{Noviello},
+  D.~{Novikov}, I.~{Novikov}, S.~{Osborne}, C.~A. {Oxborrow}, F.~{Paci},
+  L.~{Pagano}, F.~{Pajot}, D.~{Paoletti}, F.~{Pasian}, G.~{Patanchon}, H.~V.
+  {Peiris}, O.~{Perdereau}, L.~{Perotto}, F.~{Perrotta}, F.~{Piacentini},
+  M.~{Piat}, E.~{Pierpaoli}, D.~{Pietrobon}, S.~{Plaszczynski},
+  E.~{Pointecouteau}, G.~{Polenta}, N.~{Ponthieu}, L.~{Popa}, T.~{Poutanen},
+  G.~W. {Pratt}, G.~{Pr{\'e}zeau}, S.~{Prunet}, J.-L. {Puget}, J.~P. {Rachen},
+  B.~{Racine}, R.~{Rebolo}, M.~{Reinecke}, M.~{Remazeilles}, C.~{Renault},
+  A.~{Renzi}, S.~{Ricciardi}, T.~{Riller}, I.~{Ristorcelli}, G.~{Rocha},
+  C.~{Rosset}, G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n}, B.~{Rusholme},
+  M.~{Sandri}, D.~{Santos}, G.~{Savini}, D.~{Scott}, M.~D. {Seiffert}, E.~P.~S.
+  {Shellard}, K.~{Smith}, L.~D. {Spencer}, J.-L. {Starck}, V.~{Stolyarov},
+  R.~{Stompor}, R.~{Sudiwala}, R.~{Sunyaev}, F.~{Sureau}, P.~{Sutter},
+  D.~{Sutton}, A.-S. {Suur-Uski}, J.-F. {Sygnet}, J.~A. {Tauber},
+  D.~{Tavagnacco}, L.~{Terenzi}, L.~{Toffolatti}, M.~{Tomasi}, M.~{Tristram},
+  M.~{Tucci}, J.~{Tuovinen}, L.~{Valenziano}, J.~{Valiviita}, B.~{Van Tent},
+  J.~{Varis}, P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, L.~A. {Wade}, B.~D.
+  {Wandelt}, M.~{White}, S.~D.~M. {White}, D.~{Yvon}, A.~{Zacchei}, and
+  A.~{Zonca}, ``{Planck 2013 results. XXIV. Constraints on primordial
+  non-Gaussianity},'' {\em \aap}, vol.~571, p.~A24, Nov. 2014.
+
+\bibitem{2017MNRAS.467..928G}
+P.~{Gagrani} and L.~{Samushia}, ``{Information Content of the Angular
+  Multipoles of Redshift-Space Galaxy Bispectrum},'' {\em \mnras}, vol.~467,
+  pp.~928--935, May 2017.
+
+\bibitem{2006PhRvD..74b3522S}
+E.~{Sefusatti}, M.~{Crocce}, S.~{Pueblas}, and R.~{Scoccimarro}, ``{Cosmology
+  and the bispectrum},'' {\em \prd}, vol.~74, p.~023522, July 2006.
+
+\bibitem{1997PhRvL..79.3806T}
+M.~{Tegmark}, ``{Measuring Cosmological Parameters with Galaxy Surveys},'' {\em
+  Physical Review Letters}, vol.~79, pp.~3806--3809, Nov. 1997.
+
+\bibitem{1994ApJ...426...23F}
+H.~A. {Feldman}, N.~{Kaiser}, and J.~A. {Peacock}, ``{Power-spectrum analysis
+  of three-dimensional redshift surveys},'' {\em \apj}, vol.~426, pp.~23--37,
+  May 1994.
+
+\bibitem{1970ApJ...162..815P}
+P.~J.~E. {Peebles} and J.~T. {Yu}, ``{Primeval Adiabatic Perturbation in an
+  Expanding Universe},'' {\em \apj}, vol.~162, p.~815, Dec. 1970.
+
+\bibitem{1970Ap&SS...7....3S}
+R.~A. {Sunyaev} and Y.~B. {Zeldovich}, ``{Small-Scale Fluctuations of Relic
+  Radiation},'' {\em \apss}, vol.~7, pp.~3--19, Apr. 1970.
+
+\bibitem{1997Natur.386...37H}
+W.~{Hu}, N.~{Sugiyama}, and J.~{Silk}, ``{The physics of microwave background
+  anisotropies},'' {\em \nat}, vol.~386, pp.~37--43, Mar. 1997.
+
+\bibitem{1998ApJ...496..605E}
+D.~J. {Eisenstein} and W.~{Hu}, ``{Baryonic Features in the Matter Transfer
+  Function},'' {\em \apj}, vol.~496, pp.~605--614, Mar. 1998.
+
+\bibitem{2005MNRAS.362..505C}
+S.~{Cole}, W.~J. {Percival}, J.~A. {Peacock}, P.~{Norberg}, C.~M. {Baugh},
+  C.~S. {Frenk}, I.~{Baldry}, J.~{Bland-Hawthorn}, T.~{Bridges}, R.~{Cannon},
+  M.~{Colless}, C.~{Collins}, W.~{Couch}, N.~J.~G. {Cross}, G.~{Dalton}, V.~R.
+  {Eke}, R.~{De Propris}, S.~P. {Driver}, G.~{Efstathiou}, R.~S. {Ellis},
+  K.~{Glazebrook}, C.~{Jackson}, A.~{Jenkins}, O.~{Lahav}, I.~{Lewis},
+  S.~{Lumsden}, S.~{Maddox}, D.~{Madgwick}, B.~A. {Peterson}, W.~{Sutherland},
+  and K.~{Taylor}, ``{The 2dF Galaxy Redshift Survey: power-spectrum analysis
+  of the final data set and cosmological implications},'' {\em \mnras},
+  vol.~362, pp.~505--534, Sept. 2005.
+
+\bibitem{2005ApJ...633..560E}
+D.~J. {Eisenstein}, I.~{Zehavi}, D.~W. {Hogg}, R.~{Scoccimarro}, M.~R.
+  {Blanton}, R.~C. {Nichol}, R.~{Scranton}, H.-J. {Seo}, M.~{Tegmark},
+  Z.~{Zheng}, S.~F. {Anderson}, J.~{Annis}, N.~{Bahcall}, J.~{Brinkmann},
+  S.~{Burles}, F.~J. {Castander}, A.~{Connolly}, I.~{Csabai}, M.~{Doi},
+  M.~{Fukugita}, J.~A. {Frieman}, K.~{Glazebrook}, J.~E. {Gunn}, J.~S.
+  {Hendry}, G.~{Hennessy}, Z.~{Ivezi{\'c}}, S.~{Kent}, G.~R. {Knapp}, H.~{Lin},
+  Y.-S. {Loh}, R.~H. {Lupton}, B.~{Margon}, T.~A. {McKay}, A.~{Meiksin}, J.~A.
+  {Munn}, A.~{Pope}, M.~W. {Richmond}, D.~{Schlegel}, D.~P. {Schneider},
+  K.~{Shimasaku}, C.~{Stoughton}, M.~A. {Strauss}, M.~{SubbaRao}, A.~S.
+  {Szalay}, I.~{Szapudi}, D.~L. {Tucker}, B.~{Yanny}, and D.~G. {York},
+  ``{Detection of the Baryon Acoustic Peak in the Large-Scale Correlation
+  Function of SDSS Luminous Red Galaxies},'' {\em \apj}, vol.~633,
+  pp.~560--574, Nov. 2005.
+
+\bibitem{2010MNRAS.401.2148P}
+W.~J. {Percival}, B.~A. {Reid}, D.~J. {Eisenstein}, N.~A. {Bahcall},
+  T.~{Budavari}, J.~A. {Frieman}, M.~{Fukugita}, J.~E. {Gunn}, {\v
+  Z}.~{Ivezi{\'c}}, G.~R. {Knapp}, R.~G. {Kron}, J.~{Loveday}, R.~H. {Lupton},
+  T.~A. {McKay}, A.~{Meiksin}, R.~C. {Nichol}, A.~C. {Pope}, D.~J. {Schlegel},
+  D.~P. {Schneider}, D.~N. {Spergel}, C.~{Stoughton}, M.~A. {Strauss}, A.~S.
+  {Szalay}, M.~{Tegmark}, M.~S. {Vogeley}, D.~H. {Weinberg}, D.~G. {York}, and
+  I.~{Zehavi}, ``{Baryon acoustic oscillations in the Sloan Digital Sky Survey
+  Data Release 7 galaxy sample},'' {\em \mnras}, vol.~401, pp.~2148--2168, Feb.
+  2010.
+
+\bibitem{2011MNRAS.416.3017B}
+F.~{Beutler}, C.~{Blake}, M.~{Colless}, D.~H. {Jones}, L.~{Staveley-Smith},
+  L.~{Campbell}, Q.~{Parker}, W.~{Saunders}, and F.~{Watson}, ``{The 6dF Galaxy
+  Survey: baryon acoustic oscillations and the local Hubble constant},'' {\em
+  \mnras}, vol.~416, pp.~3017--3032, Oct. 2011.
+
+\bibitem{2011MNRAS.418.1707B}
+C.~{Blake}, E.~A. {Kazin}, F.~{Beutler}, T.~M. {Davis}, D.~{Parkinson},
+  S.~{Brough}, M.~{Colless}, C.~{Contreras}, W.~{Couch}, S.~{Croom},
+  D.~{Croton}, M.~J. {Drinkwater}, K.~{Forster}, D.~{Gilbank}, M.~{Gladders},
+  K.~{Glazebrook}, B.~{Jelliffe}, R.~J. {Jurek}, I.-H. {Li}, B.~{Madore}, D.~C.
+  {Martin}, K.~{Pimbblet}, G.~B. {Poole}, M.~{Pracy}, R.~{Sharp},
+  E.~{Wisnioski}, D.~{Woods}, T.~K. {Wyder}, and H.~K.~C. {Yee}, ``{The WiggleZ
+  Dark Energy Survey: mapping the distance-redshift relation with baryon
+  acoustic oscillations},'' {\em \mnras}, vol.~418, pp.~1707--1724, Dec. 2011.
+
+\bibitem{2014JCAP...05..027F}
+A.~{Font-Ribera}, D.~{Kirkby}, N.~{Busca}, J.~{Miralda-Escud{\'e}}, N.~P.
+  {Ross}, A.~{Slosar}, J.~{Rich}, {\'E}.~{Aubourg}, S.~{Bailey}, V.~{Bhardwaj},
+  J.~{Bautista}, F.~{Beutler}, D.~{Bizyaev}, M.~{Blomqvist}, H.~{Brewington},
+  J.~{Brinkmann}, J.~R. {Brownstein}, B.~{Carithers}, K.~S. {Dawson},
+  T.~{Delubac}, G.~{Ebelke}, D.~J. {Eisenstein}, J.~{Ge}, K.~{Kinemuchi}, K.-G.
+  {Lee}, V.~{Malanushenko}, E.~{Malanushenko}, M.~{Marchante}, D.~{Margala},
+  D.~{Muna}, A.~D. {Myers}, P.~{Noterdaeme}, D.~{Oravetz},
+  N.~{Palanque-Delabrouille}, I.~{P{\^a}ris}, P.~{Petitjean}, M.~M. {Pieri},
+  G.~{Rossi}, D.~P. {Schneider}, A.~{Simmons}, M.~{Viel}, C.~{Yeche}, and D.~G.
+  {York}, ``{Quasar-Lyman {$\alpha$} forest cross-correlation from BOSS DR11:
+  Baryon Acoustic Oscillations},'' {\em \jcap}, vol.~5, p.~027, May 2014.
+
+\bibitem{2015A&A...574A..59D}
+T.~{Delubac}, J.~E. {Bautista}, N.~G. {Busca}, J.~{Rich}, D.~{Kirkby},
+  S.~{Bailey}, A.~{Font-Ribera}, A.~{Slosar}, K.-G. {Lee}, M.~M. {Pieri}, J.-C.
+  {Hamilton}, {\'E}.~{Aubourg}, M.~{Blomqvist}, J.~{Bovy}, J.~{Brinkmann},
+  W.~{Carithers}, K.~S. {Dawson}, D.~J. {Eisenstein}, S.~G.~A. {Gontcho}, J.-P.
+  {Kneib}, J.-M. {Le Goff}, D.~{Margala}, J.~{Miralda-Escud{\'e}}, A.~D.
+  {Myers}, R.~C. {Nichol}, P.~{Noterdaeme}, R.~{O'Connell}, M.~D. {Olmstead},
+  N.~{Palanque-Delabrouille}, I.~{P{\^a}ris}, P.~{Petitjean}, N.~P. {Ross},
+  G.~{Rossi}, D.~J. {Schlegel}, D.~P. {Schneider}, D.~H. {Weinberg},
+  C.~{Y{\`e}che}, and D.~G. {York}, ``{Baryon acoustic oscillations in the
+  Ly{$\alpha$} forest of BOSS DR11 quasars},'' {\em \aap}, vol.~574, p.~A59,
+  Feb. 2015.
+
+\bibitem{2015MNRAS.449..835R}
+A.~J. {Ross}, L.~{Samushia}, C.~{Howlett}, W.~J. {Percival}, A.~{Burden}, and
+  M.~{Manera}, ``{The clustering of the SDSS DR7 main Galaxy sample - I. A 4
+  per cent distance measure at z = 0.15},'' {\em \mnras}, vol.~449,
+  pp.~835--847, May 2015.
+
+\bibitem{1979Natur.281..358A}
+C.~{Alcock} and B.~{Paczynski}, ``{An evolution free test for non-zero
+  cosmological constant},'' {\em \nat}, vol.~281, p.~358, Oct. 1979.
+
+\bibitem{2013MNRAS.429.1514S}
+L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
+  L.~{Lombriser}, M.~{Manera}, R.~C. {Nichol}, D.~P. {Schneider}, D.~{Bizyaev},
+  H.~{Brewington}, E.~{Malanushenko}, V.~{Malanushenko}, D.~{Oravetz},
+  K.~{Pan}, A.~{Simmons}, A.~{Shelden}, S.~{Snedden}, J.~L. {Tinker}, B.~A.
+  {Weaver}, D.~G. {York}, and G.-B. {Zhao}, ``{The clustering of galaxies in
+  the SDSS-III DR9 Baryon Oscillation Spectroscopic Survey: testing deviations
+  from {\ensuremath{\Lambda}} and general relativity using anisotropic
+  clustering of galaxies},'' {\em \mnras}, vol.~429, pp.~1514--1528, Feb. 2013.
+
+\bibitem{2015PhRvD..91f3008X}
+L.~{Xu}, ``{Constraints on f (R ) gravity through the redshift space
+  distortion},'' {\em \prd}, vol.~91, p.~063008, Mar. 2015.
+
+\bibitem{2016MNRAS.456.3743A}
+S.~{Alam}, S.~{Ho}, and A.~{Silvestri}, ``{Testing deviations from
+  {$\Lambda$}CDM with growth rate measurements from six large-scale structure
+  surveys at z = 0.06-1},'' {\em \mnras}, vol.~456, pp.~3743--3756, Mar. 2016.
+
+\bibitem{2011MNRAS.410.1993S}
+L.~{Samushia}, W.~J. {Percival}, L.~{Guzzo}, Y.~{Wang}, A.~{Cimatti},
+  C.~{Baugh}, J.~E. {Geach}, C.~{Lacey}, E.~{Majerotto}, P.~{Mukherjee}, and
+  A.~{Orsi}, ``{Effects of cosmological model assumptions on galaxy redshift
+  survey measurements},'' {\em \mnras}, vol.~410, pp.~1993--2002, Jan. 2011.
+
+\bibitem{2009arXiv0906.0664H}
+A.~{Heavens}, ``{Statistical techniques in cosmology},'' {\em ArXiv e-prints},
+  June 2009.
+
+\bibitem{2009arXiv0906.4123C}
+D.~{Coe}, ``{Fisher Matrices and Confidence Ellipses: A Quick-Start Guide and
+  Software},'' {\em ArXiv e-prints}, June 2009.
+
+\bibitem{2003ApJ...598..720S}
+H.-J. {Seo} and D.~J. {Eisenstein}, ``{Probing Dark Energy with Baryonic
+  Acoustic Oscillations from Future Large Galaxy Redshift Surveys},'' {\em
+  \apj}, vol.~598, pp.~720--740, Dec. 2003.
+
+\bibitem{2009MNRAS.397.1348W}
+M.~{White}, Y.-S. {Song}, and W.~J. {Percival}, ``{Forecasting cosmological
+  constraints from redshift surveys},'' {\em \mnras}, vol.~397, pp.~1348--1354,
+  Aug. 2009.
+
+\bibitem{2017MNRAS.469.1738S}
+Z.~{Slepian}, D.~J. {Eisenstein}, J.~R. {Brownstein}, C.-H. {Chuang},
+  H.~{Gil-Mar{\'{\i}}n}, S.~{Ho}, F.-S. {Kitaura}, W.~J. {Percival}, A.~J.
+  {Ross}, G.~{Rossi}, H.-J. {Seo}, A.~{Slosar}, and M.~{Vargas-Maga{\~n}a},
+  ``{Detection of baryon acoustic oscillation features in the large-scale
+  three-point correlation function of SDSS BOSS DR12 CMASS galaxies},'' {\em
+  \mnras}, vol.~469, pp.~1738--1751, Aug. 2017.
+
+\bibitem{2004MNRAS.347..645P}
+W.~J. {Percival}, L.~{Verde}, and J.~A. {Peacock}, ``{Fourier analysis of
+  luminosity-dependent galaxy clustering},'' {\em \mnras}, vol.~347,
+  pp.~645--653, Jan. 2004.
+
+\bibitem{2018arXiv180804384S}
+B.~D. {Sherwin} and M.~{White}, ``{The Impact of Wrong Assumptions in BAO
+  Reconstruction},'' {\em ArXiv e-prints}, Aug. 2018.
+
+\bibitem{2017arXiv171207575N}
+S.~{Nadathur} and W.~J. {Percival}, ``{An accurate linear model for redshift
+  space distortions in the void-galaxy correlation function},'' {\em ArXiv
+  e-prints}, Dec. 2017.
+
 \bibitem{2014ApJ...780..139G}
 H.~{Guo}, C.~{Li}, Y.~P. {Jing}, and G.~{B{\"o}rner}, ``{Stellar Mass and Color
   Dependence of the Three-point Correlation Function of Galaxies in the Local
@@ -330,13 +778,42 @@ P.~J.~E. {Peebles} and E.~J. {Groth}, ``{Statistical analysis of catalogs of
   distribution in the Zwicky catalog},'' {\em \apj}, vol.~196, pp.~1--11, Feb.
   1975.
 
-\bibitem{2017MNRAS.469.1738S}
-Z.~{Slepian}, D.~J. {Eisenstein}, J.~R. {Brownstein}, C.-H. {Chuang},
-  H.~{Gil-Mar{\'{\i}}n}, S.~{Ho}, F.-S. {Kitaura}, W.~J. {Percival}, A.~J.
-  {Ross}, G.~{Rossi}, H.-J. {Seo}, A.~{Slosar}, and M.~{Vargas-Maga{\~n}a},
-  ``{Detection of baryon acoustic oscillation features in the large-scale
-  three-point correlation function of SDSS BOSS DR12 CMASS galaxies},'' {\em
-  \mnras}, vol.~469, pp.~1738--1751, Aug. 2017.
+\bibitem{2010MNRAS.401.1429D}
+M.~J. {Drinkwater}, R.~J. {Jurek}, C.~{Blake}, D.~{Woods}, K.~A. {Pimbblet},
+  K.~{Glazebrook}, R.~{Sharp}, M.~B. {Pracy}, S.~{Brough}, M.~{Colless}, W.~J.
+  {Couch}, S.~M. {Croom}, T.~M. {Davis}, D.~{Forbes}, K.~{Forster}, D.~G.
+  {Gilbank}, M.~{Gladders}, B.~{Jelliffe}, N.~{Jones}, I.-H. {Li}, B.~{Madore},
+  D.~C. {Martin}, G.~B. {Poole}, T.~{Small}, E.~{Wisnioski}, T.~{Wyder}, and
+  H.~K.~C. {Yee}, ``{The WiggleZ Dark Energy Survey: survey design and first
+  data release},'' {\em \mnras}, vol.~401, pp.~1429--1452, Jan. 2010.
+
+\bibitem{2014A&A...562A..23G}
+B.~{Garilli}, L.~{Guzzo}, M.~{Scodeggio}, M.~{Bolzonella}, U.~{Abbas},
+  C.~{Adami}, S.~{Arnouts}, J.~{Bel}, D.~{Bottini}, E.~{Branchini}, A.~{Cappi},
+  J.~{Coupon}, O.~{Cucciati}, I.~{Davidzon}, G.~{De Lucia}, S.~{de la Torre},
+  P.~{Franzetti}, A.~{Fritz}, M.~{Fumana}, B.~R. {Granett}, O.~{Ilbert},
+  A.~{Iovino}, J.~{Krywult}, V.~{Le Brun}, O.~{Le F{\`e}vre}, D.~{Maccagni},
+  K.~{Ma{\l}ek}, F.~{Marulli}, H.~J. {McCracken}, L.~{Paioro}, M.~{Polletta},
+  A.~{Pollo}, H.~{Schlagenhaufer}, L.~A.~M. {Tasca}, R.~{Tojeiro},
+  D.~{Vergani}, G.~{Zamorani}, A.~{Zanichelli}, A.~{Burden}, C.~{Di Porto},
+  A.~{Marchetti}, C.~{Marinoni}, Y.~{Mellier}, L.~{Moscardini}, R.~C. {Nichol},
+  J.~A. {Peacock}, W.~J. {Percival}, S.~{Phleps}, and M.~{Wolk}, ``{The VIMOS
+  Public Extragalactic Survey (VIPERS). First Data Release of 57 204
+  spectroscopic measurements},'' {\em \aap}, vol.~562, p.~A23, Feb. 2014.
+
+\bibitem{2016MNRAS.455.1553R}
+B.~{Reid}, S.~{Ho}, N.~{Padmanabhan}, W.~J. {Percival}, J.~{Tinker},
+  R.~{Tojeiro}, M.~{White}, D.~J. {Eisenstein}, C.~{Maraston}, A.~J. {Ross},
+  A.~G. {S{\'a}nchez}, D.~{Schlegel}, E.~{Sheldon}, M.~A. {Strauss},
+  D.~{Thomas}, D.~{Wake}, F.~{Beutler}, D.~{Bizyaev}, A.~S. {Bolton}, J.~R.
+  {Brownstein}, C.-H. {Chuang}, K.~{Dawson}, P.~{Harding}, F.-S. {Kitaura},
+  A.~{Leauthaud}, K.~{Masters}, C.~K. {McBride}, S.~{More}, M.~D. {Olmstead},
+  D.~{Oravetz}, S.~E. {Nuza}, K.~{Pan}, J.~{Parejko}, J.~{Pforr}, F.~{Prada},
+  S.~{Rodr{\'{\i}}guez-Torres}, S.~{Salazar-Albornoz}, L.~{Samushia}, D.~P.
+  {Schneider}, C.~G. {Sc{\'o}ccola}, A.~{Simmons}, and M.~{Vargas-Magana},
+  ``{SDSS-III Baryon Oscillation Spectroscopic Survey Data Release 12: galaxy
+  target selection and large-scale structure catalogues},'' {\em \mnras},
+  vol.~455, pp.~1553--1573, Jan. 2016.
 
 \bibitem{2016arXiv160706098S}
 Z.~{Slepian}, D.~J. {Eisenstein}, J.~A. {Blazek}, J.~R. {Brownstein}, C.-H.
@@ -389,11 +866,6 @@ M.~{Moresco}, F.~{Marulli}, L.~{Moscardini}, E.~{Branchini}, A.~{Cappi},
   Extragalactic Redshift Survey (VIPERS) . Exploring the dependence of the
   three-point correlation function on stellar mass and luminosity at 0.5 $<$ z
   $<$ 1.1},'' {\em \aap}, vol.~604, p.~A133, Aug. 2017.
-
-\bibitem{2017MNRAS.467..928G}
-P.~{Gagrani} and L.~{Samushia}, ``{Information Content of the Angular
-  Multipoles of Redshift-Space Galaxy Bispectrum},'' {\em \mnras}, vol.~467,
-  pp.~928--935, May 2017.
 
 \bibitem{2018MNRAS.478.4500P}
 D.~W. {Pearson} and L.~{Samushia}, ``{A Detection of the Baryon Acoustic
@@ -632,11 +1104,6 @@ J.~N. {Fry} and E.~{Gaztanaga}, ``{Biasing and hierarchical statistics in
 K.~C. {Chan}, R.~{Scoccimarro}, and R.~K. {Sheth}, ``{Gravity and large-scale
   nonlocal bias},'' {\em \prd}, vol.~85, p.~083509, Apr. 2012.
 
-\bibitem{2012PhRvD..86h3540B}
-T.~{Baldauf}, U.~{Seljak}, V.~{Desjacques}, and P.~{McDonald}, ``{Evidence for
-  quadratic tidal tensor bias from the halo bispectrum},'' {\em \prd}, vol.~86,
-  p.~083540, Oct. 2012.
-
 \bibitem{1972MNRAS.156P...1J}
 J.~C. {Jackson}, ``{A critique of Rees's theory of primordial gravitational
   radiation},'' {\em \mnras}, vol.~156, p.~1P, 1972.
@@ -709,6 +1176,11 @@ I.~{Hashimoto}, Y.~{Rasera}, and A.~{Taruya}, ``{Precision cosmology with
   redshift-space bispectrum: A perturbation theory based model at one-loop
   order},'' {\em \prd}, vol.~96, p.~043526, Aug. 2017.
 
+\bibitem{2016MNRAS.463.3783B}
+D.~{Bianchi}, W.~J. {Percival}, and J.~{Bel}, ``{Improving the modelling of
+  redshift-space distortions- II. A pairwise velocity model covering large and
+  small scales},'' {\em \mnras}, vol.~463, pp.~3783--3798, Dec. 2016.
+
 \bibitem{2017arXiv171101453K}
 A.~{Klypin}, F.~{Prada}, and J.~{Comparat}, ``{Skies And Universes: Accessing
   cosmological simulations and theoretical predictions},'' {\em ArXiv
@@ -749,16 +1221,6 @@ S.~W. {Skillman}, M.~S. {Warren}, M.~J. {Turk}, R.~H. {Wechsler}, D.~E. {Holz},
   and P.~M. {Sutter}, ``{Dark Sky Simulations: Early Data Release},'' {\em
   ArXiv e-prints}, July 2014.
 
-\bibitem{2013MNRAS.429.1514S}
-L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
-  L.~{Lombriser}, M.~{Manera}, R.~C. {Nichol}, D.~P. {Schneider}, D.~{Bizyaev},
-  H.~{Brewington}, E.~{Malanushenko}, V.~{Malanushenko}, D.~{Oravetz},
-  K.~{Pan}, A.~{Simmons}, A.~{Shelden}, S.~{Snedden}, J.~L. {Tinker}, B.~A.
-  {Weaver}, D.~G. {York}, and G.-B. {Zhao}, ``{The clustering of galaxies in
-  the SDSS-III DR9 Baryon Oscillation Spectroscopic Survey: testing deviations
-  from {\ensuremath{\Lambda}} and general relativity using anisotropic
-  clustering of galaxies},'' {\em \mnras}, vol.~429, pp.~1514--1528, Feb. 2013.
-
 \bibitem{2014MNRAS.439.3504S}
 L.~{Samushia}, B.~A. {Reid}, M.~{White}, W.~J. {Percival}, A.~J. {Cuesta},
   G.-B. {Zhao}, A.~J. {Ross}, M.~{Manera}, {\'E}.~{Aubourg}, F.~{Beutler},
@@ -777,12 +1239,6 @@ M.~{Manera}, L.~{Samushia}, R.~{Tojeiro}, C.~{Howlett}, A.~J. {Ross}, W.~J.
   F.~{Montesano}, ``{The clustering of galaxies in the SDSS-III Baryon
   Oscillation Spectroscopic Survey: mock galaxy catalogues for the low-
   redshift sample},'' {\em \mnras}, vol.~447, pp.~437--445, Feb. 2015.
-
-\bibitem{2015MNRAS.449..835R}
-A.~J. {Ross}, L.~{Samushia}, C.~{Howlett}, W.~J. {Percival}, A.~{Burden}, and
-  M.~{Manera}, ``{The clustering of the SDSS DR7 main Galaxy sample - I. A 4
-  per cent distance measure at z = 0.15},'' {\em \mnras}, vol.~449,
-  pp.~835--847, May 2015.
 
 \bibitem{2015MNRAS.449..848H}
 C.~{Howlett}, A.~J. {Ross}, L.~{Samushia}, W.~J. {Percival}, and M.~{Manera},
@@ -835,10 +1291,6 @@ P.~J.~E. {Peebles} and B.~{Ratra}, ``{Cosmology with a time-variable
 \bibitem{1988PhRvD..37.3406R}
 B.~{Ratra} and P.~J.~E. {Peebles}, ``{Cosmological consequences of a rolling
   homogeneous scalar field},'' {\em \prd}, vol.~37, pp.~3406--3427, June 1988.
-
-\bibitem{2003RvMP...75..559P}
-P.~J. {Peebles} and B.~{Ratra}, ``{The cosmological constant and dark
-  energy},'' {\em Reviews of Modern Physics}, vol.~75, pp.~559--606, Apr. 2003.
 
 \bibitem{2018arXiv180305522P}
 C.-G. {Park} and B.~{Ratra}, ``{Observational constraints on the tilted
